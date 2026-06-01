@@ -13,6 +13,7 @@
     "supportEmail": "utsavhacker@gmail.com"
   },
   "data": {
+    "schemaVersion": 1,
     "contentVersion": 1,
     "minAppVersion": "1.0"
   },
@@ -48,9 +49,9 @@
       ],
       "hasAudio": true,
       "hasMeanings": true,
-      "hasImage": false,
-      "checksum": "721c5ae9e3b4adf7f6bd7c8c91f5d2ea488045edd8f2735376577cf12541c261",
-      "size": 4549003
+      "hasImage": true,
+      "checksum": "fa7fe2919ce7dd18850c92b464ece6714b3bb549249e0ddaf895cda327482ba2",
+      "size": 4715092
     },
     {
       "id": "bajrang_baan",
@@ -73,9 +74,9 @@
       ],
       "hasAudio": true,
       "hasMeanings": false,
-      "hasImage": false,
-      "checksum": "2cfeae42e693bcb60224c2c13dbe6153a83109d0e9978f1ecc36254f9612f729",
-      "size": 11101188
+      "hasImage": true,
+      "checksum": "1f962a1291dd727bbe45f38dd2a4e3af42a9217d7e011764cc8a77569f1bf3e7",
+      "size": 11140626
     },
     {
       "id": "sankat_mochan",
@@ -98,9 +99,9 @@
       ],
       "hasAudio": true,
       "hasMeanings": false,
-      "hasImage": false,
-      "checksum": "b89c0dc1292da27d923a7933353789eb5118451b1474e787891eb4897980bf5d",
-      "size": 8812198
+      "hasImage": true,
+      "checksum": "a584229dfc88011d8ae748a0e55d40d480fb7c0a1241cf2d3d0adc6f13eafe9c",
+      "size": 8869514
     },
     {
       "id": "jay_adhya_shakti",
@@ -123,9 +124,9 @@
       ],
       "hasAudio": true,
       "hasMeanings": false,
-      "hasImage": false,
-      "checksum": "ba1e9af6eb7423218a357df529bae3c3e31295e213e08f89e1dea8ebd43eb0a0",
-      "size": 19432118
+      "hasImage": true,
+      "checksum": "20bda3116eede68325d11eb7dca41493abc22c0faa814d8c2e595b57069465bd",
+      "size": 19550908
     },
     {
       "id": "ganesh_aarti",
@@ -148,9 +149,9 @@
       ],
       "hasAudio": true,
       "hasMeanings": false,
-      "hasImage": false,
-      "checksum": "7bcc10b0a29af64d96b22657443cfbd662f3220f00822fcf8deb2722d617553a",
-      "size": 6486464
+      "hasImage": true,
+      "checksum": "3d0af25598aba8ee8ec13e4e34434d9dd1f4dd1cec4f3d2d1a007b8159e47efe",
+      "size": 6650471
     },
     {
       "id": "shani_chalisa",
@@ -173,9 +174,9 @@
       ],
       "hasAudio": true,
       "hasMeanings": false,
-      "hasImage": false,
-      "checksum": "997896ca8beb9128649df618ccbbf5fa032b21995b55b5defcd1e2b1d8dfc974",
-      "size": 37804706
+      "hasImage": true,
+      "checksum": "86b2f1c36951d176a660d7586967e1d46a5254db52f1a3b6d31b449b2788cba8",
+      "size": 37943872
     },
     {
       "id": "shiv_tandav",
@@ -198,13 +199,13 @@
       ],
       "hasAudio": true,
       "hasMeanings": false,
-      "hasImage": false,
-      "checksum": "92d7951119c2b3007f2df706749a94a76faa495293064ac98106a7586d4554d2",
-      "size": 9269482
+      "hasImage": true,
+      "checksum": "de1aa5849777d97a7dc8b7e8ffd740da757bf669d786f4ce16f9b9ec04b11eaf",
+      "size": 9403903
     }
   ],
   "_meta": {
-    "generatedAt": "2026-06-01T17:44:27.047330Z",
+    "generatedAt": "2026-06-01T18:22:07.839830Z",
     "generator": "build.py",
     "itemCount": 7
   }

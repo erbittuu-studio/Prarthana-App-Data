@@ -5,12 +5,20 @@ Data Builder Script
 Generates ZIP bundles and manifest.json from source content.
 
 Usage:
-    python build.py [--clean] [--verify] [--verbose]
+    python build.py [options]
 
 Options:
     --clean     Remove build directory before building
     --verify    Verify existing build integrity
     --verbose   Show detailed output
+    --publish   Increment content version (for content updates)
+    --reset     Increment schema version (forces full re-download on all clients)
+
+Version Management:
+    contentVersion  - Incremented with --publish. App compares item checksums
+                      and only downloads changed items.
+    schemaVersion   - Incremented with --reset. App clears all cache and
+                      re-downloads everything. Use for breaking changes.
 
 Directory Structure:
     index.json          - Source of truth: app info, items metadata, versioning
@@ -19,6 +27,7 @@ Directory Structure:
             {item_id}_{lang}.json    - Content in each language
             {item_id}_meanings.json  - Meanings/explanations (optional)
             {item_id}.mp3            - Audio file (optional)
+            {item_id}.png            - Image file (optional)
 
     build/              - Generated output (deploy this to GitHub)
         manifest.json   - Final manifest with checksums and file info
@@ -26,10 +35,14 @@ Directory Structure:
             {item_id}.zip   - ZIP bundles for each item
 
 Workflow:
-    1. Edit index.json to add/update items (metadata, names, descriptions)
-    2. Add content files in source/{item_id}/
-    3. Run: python build.py
-    4. Deploy build/ directory contents to GitHub data repository
+    1. Edit content files in source/{item_id}/
+    2. Run: python build.py --publish
+    3. Deploy build/ directory contents to GitHub data repository
+
+Examples:
+    python build.py --publish          # Normal content update
+    python build.py --reset            # Breaking change, force full re-download
+    python build.py --clean --publish  # Clean build with version bump
 """
 
 import os
@@ -131,7 +144,31 @@ def load_index() -> Optional[Dict]:
             log_error(f"Missing required field '{field}' in index.json")
             return None
 
+    # Ensure schemaVersion exists (for backwards compatibility)
+    if "schemaVersion" not in index["data"]:
+        index["data"]["schemaVersion"] = 1
+
     return index
+
+
+def bump_content_version(index: Dict) -> int:
+    """Increment contentVersion and save to index.json."""
+    current = index["data"].get("contentVersion", 0)
+    new_version = current + 1
+    index["data"]["contentVersion"] = new_version
+    save_json(INDEX_FILE, index)
+    return new_version
+
+
+def bump_schema_version(index: Dict) -> int:
+    """Increment schemaVersion (forces full re-download) and save to index.json."""
+    current = index["data"].get("schemaVersion", 1)
+    new_version = current + 1
+    index["data"]["schemaVersion"] = new_version
+    # Also bump content version
+    index["data"]["contentVersion"] = index["data"].get("contentVersion", 0) + 1
+    save_json(INDEX_FILE, index)
+    return new_version
 
 
 def analyze_item_files(item_id: str, verbose: bool = False) -> Optional[Dict]:
@@ -408,13 +445,20 @@ def build(verbose: bool = False) -> bool:
 
     Items Defined:    {len(index['items'])}
     Items Built:      {len(manifest_items)}
+    Schema Version:   {index['data'].get('schemaVersion', 1)}
     Content Version:  {index['data']['contentVersion']}
 
     Files Generated:
       - manifest.json
       - texts/*.zip ({len(manifest_items)} files)
 
-    Deploy the 'build/' directory contents to your GitHub data repository.
+    Next Steps:
+      1. Commit and push build/ to GitHub
+      2. App will detect changes and update accordingly
+
+    Version Commands:
+      --publish  : Content update (app downloads only changed items)
+      --reset    : Breaking change (app clears cache, downloads everything)
     """)
 
     return len(errors) == 0
@@ -429,6 +473,8 @@ def main():
     parser.add_argument("--clean", action="store_true", help="Clean build directory before building")
     parser.add_argument("--verify", action="store_true", help="Verify existing build integrity")
     parser.add_argument("--verbose", "-v", action="store_true", help="Verbose output")
+    parser.add_argument("--publish", action="store_true", help="Increment content version (smart update)")
+    parser.add_argument("--reset", action="store_true", help="Increment schema version (force full re-download)")
 
     args = parser.parse_args()
 
@@ -443,6 +489,19 @@ def main():
     if args.clean:
         log_section("Cleaning Build Directory")
         clean_build()
+
+    # Handle version bumping
+    if args.publish or args.reset:
+        log_section("Version Management")
+        index = load_index()
+        if index:
+            if args.reset:
+                new_schema = bump_schema_version(index)
+                log_success(f"Schema version bumped to {new_schema} (full re-download required)")
+                log_success(f"Content version bumped to {index['data']['contentVersion']}")
+            elif args.publish:
+                new_version = bump_content_version(index)
+                log_success(f"Content version bumped to {new_version}")
 
     success = build(args.verbose)
 

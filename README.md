@@ -65,14 +65,17 @@ source/my_item/
 ### 3. Run Build Script
 
 ```bash
-# Clean build
-python build.py --clean
+# Content update (smart - app downloads only changed items)
+python build.py --publish
 
-# Normal build
-python build.py
+# Breaking change (app clears cache, downloads everything)
+python build.py --reset
+
+# Clean build with publish
+python build.py --clean --publish
 
 # Verbose output
-python build.py --verbose
+python build.py --verbose --publish
 
 # Verify existing build
 python build.py --verify
@@ -80,9 +83,12 @@ python build.py --verify
 
 ### 4. Deploy to GitHub
 
-Upload the contents of `build/` directory to your GitHub data repository:
-- `manifest.json` - Main manifest file
-- `texts/*.zip` - Content bundles
+Commit and push the `build/` directory to GitHub:
+```bash
+git add build/
+git commit -m "Content update v2"
+git push
+```
 
 ## Content File Formats
 
@@ -128,10 +134,44 @@ The build script generates `manifest.json` with:
 
 ## Version Management
 
-To release a content update:
-1. Update content files in `source/`
-2. Increment `contentVersion` in `index.json`
-3. Run `python build.py --clean`
-4. Deploy `build/` to GitHub
+### Two Version Types
 
-The app will detect the new version and download updated content.
+| Version | Flag | App Behavior |
+|---------|------|--------------|
+| `contentVersion` | `--publish` | App compares checksums, downloads only changed items |
+| `schemaVersion` | `--reset` | App clears all cache, downloads everything fresh |
+
+### When to Use Each
+
+**Use `--publish` for:**
+- Adding/updating content (JSON, MP3, images)
+- Fixing typos or content errors
+- Adding new items
+
+**Use `--reset` for:**
+- Breaking schema changes (new required fields)
+- Major restructuring of data format
+- When you want all users to start fresh
+
+### Quick Workflow
+
+```bash
+# 1. Edit content files in source/
+# 2. Build and publish
+python build.py --clean --publish
+
+# 3. Deploy to GitHub
+git add build/ index.json
+git commit -m "Content update"
+git push
+```
+
+### How Smart Updates Work
+
+1. App fetches `manifest.json` from server
+2. Compares `schemaVersion`:
+   - If changed → Clear all cache, re-download everything
+3. Compares item checksums:
+   - Different checksum → Re-download that item
+   - Same checksum → Skip (already up-to-date)
+4. Removes items no longer in manifest

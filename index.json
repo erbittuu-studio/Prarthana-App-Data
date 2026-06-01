@@ -13,6 +13,7 @@
     "supportEmail": "utsavhacker@gmail.com"
   },
   "data": {
+    "schemaVersion": 1,
     "contentVersion": 1,
     "minAppVersion": "1.0"
   },
