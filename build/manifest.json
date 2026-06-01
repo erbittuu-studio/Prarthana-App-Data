@@ -1,9 +1,9 @@
 {
   "app": {
     "name": {
-      "en": "Hanuman Chalisa",
-      "hi": "हनुमान चालीसा",
-      "gu": "હનુમાન ચાલીસા"
+      "en": "Prarthana",
+      "hi": "प्रार्थना",
+      "gu": "પ્રાર્થના"
     },
     "tagline": {
       "en": "Sacred Texts & Prayers",
@@ -49,7 +49,7 @@
       "hasAudio": true,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "8bb65f1fe5781e8061b06447f7858c40ea2a6edcc3d26da1e6f0c59b37639d36",
+      "checksum": "4ab988a4ded1c8f75813e9a8255f85f91c8de83443e8eb4b7dfd7bedffe6a281",
       "size": 4548843
     },
     {
@@ -74,7 +74,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "47c24a1153c434f6bf7ea57cc874a2b3c29d77dd8aa154af66558efd22b6005f",
+      "checksum": "819afd54969d0a3c4263a6ecda058c172d4db798d6fa3ab9a407a877bfdb44ed",
       "size": 4555
     },
     {
@@ -99,7 +99,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "91775088aa3b11b82e9882122ed735cb8e1169d2393f5ca317d35b6ee9f33418",
+      "checksum": "c60e33c4610878632daae46f83bb8b441167f4ac23086d6c070e7ddaf6f5c697",
       "size": 3869
     },
     {
@@ -124,7 +124,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "4a58dcae056d730ff8647119992b8a9d427e327aed00ed0f5a3f35109be4b85a",
+      "checksum": "fdbdeda9f34872c1c190036a263e89d9a8a5116157851812d2e6d191526923b4",
       "size": 2339
     },
     {
@@ -149,7 +149,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "5cfafad327fbb2258670d1efd01947adca5d0c7f8d07425735d12399c504ebe0",
+      "checksum": "1ac0407a46882283b93c95becc5069ed015e2511c3dba99d32dfcdb0976208de",
       "size": 1956
     },
     {
@@ -174,7 +174,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "de9ba68c33d433960e91299e58d97cc772afcb3fc57deeb1b5cc06158d0fdce8",
+      "checksum": "576c9146119d7d9ce1b86d0c5bfce1326889cbc7ded71d6143c6679cb568ed3e",
       "size": 6330
     },
     {
@@ -199,12 +199,12 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "003b90058d4fcecc3498c5b029aa577f0f5d6040c14adbd012018b45fa685c3d",
+      "checksum": "755e79c5da1009a309037e63be6d386a70724b0ba7f0e5dfcec59df950ae3b07",
       "size": 5571
     }
   ],
   "_meta": {
-    "generatedAt": "2026-06-01T17:22:43.245936Z",
+    "generatedAt": "2026-06-01T17:27:02.444333Z",
     "generator": "build.py",
     "itemCount": 7
   }
