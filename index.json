@@ -1,0 +1,122 @@
+{
+  "app": {
+    "name": {
+      "en": "Hanuman Chalisa",
+      "hi": "हनुमान चालीसा",
+      "gu": "હનુમાન ચાલીસા"
+    },
+    "tagline": {
+      "en": "Sacred Texts & Prayers",
+      "hi": "पवित्र ग्रंथ और प्रार्थनाएँ",
+      "gu": "પવિત્ર ગ્રંથો અને પ્રાર્થનાઓ"
+    },
+    "supportEmail": "utsavhacker@gmail.com"
+  },
+  "data": {
+    "contentVersion": 1,
+    "minAppVersion": "1.0"
+  },
+  "config": {
+    "forceUpdate": false,
+    "maintenanceMode": false,
+    "showAds": false
+  },
+  "languages": {
+    "en": true,
+    "hi": true,
+    "gu": true
+  },
+  "items": [
+    {
+      "id": "chalisa",
+      "name": {
+        "en": "Hanuman Chalisa",
+        "hi": "हनुमान चालीसा",
+        "gu": "હનુમાન ચાલીસા"
+      },
+      "description": {
+        "en": "40 Chaupai by Tulsidas",
+        "hi": "40 चौपाई - तुलसीदास",
+        "gu": "40 ચોપાઈ - તુલસીદાસ"
+      }
+    },
+    {
+      "id": "bajrang_baan",
+      "name": {
+        "en": "Bajrang Baan",
+        "hi": "बजरंग बाण",
+        "gu": "બજરંગ બાણ"
+      },
+      "description": {
+        "en": "Powerful Protection Prayer",
+        "hi": "शक्तिशाली सुरक्षा प्रार्थना",
+        "gu": "શક્તિશાળી સુરક્ષા પ્રાર્થના"
+      }
+    },
+    {
+      "id": "sankat_mochan",
+      "name": {
+        "en": "Sankat Mochan Hanumanashtak",
+        "hi": "संकटमोचन हनुमानाष्टक",
+        "gu": "સંકટમોચન હનુમાનાષ્ટક"
+      },
+      "description": {
+        "en": "8 Verses - Remover of Difficulties",
+        "hi": "8 छंद - कष्ट निवारक",
+        "gu": "8 છંદ - કષ્ટ નિવારક"
+      }
+    },
+    {
+      "id": "jay_adhya_shakti",
+      "name": {
+        "en": "Jay Adhya Shakti",
+        "hi": "जय आद्या शक्ति",
+        "gu": "જય આદ્યા શક્તિ"
+      },
+      "description": {
+        "en": "Ambaji Maa Aarti",
+        "hi": "माँ अम्बाजी की आरती",
+        "gu": "માઁ અંબાજી આરતી"
+      }
+    },
+    {
+      "id": "ganesh_aarti",
+      "name": {
+        "en": "Ganesh Aarti",
+        "hi": "गणेश आरती",
+        "gu": "ગણેશ આરતી"
+      },
+      "description": {
+        "en": "Jai Ganesh Jai Ganesh Deva",
+        "hi": "जय गणेश जय गणेश देवा",
+        "gu": "જય ગણેશ જય ગણેશ દેવા"
+      }
+    },
+    {
+      "id": "shani_chalisa",
+      "name": {
+        "en": "Shani Chalisa",
+        "hi": "शनि चालीसा",
+        "gu": "શનિ ચાલીસા"
+      },
+      "description": {
+        "en": "40 Chaupai - Lord Shani",
+        "hi": "40 चौपाई - शनि देव",
+        "gu": "40 ચોપાઈ - શનિ દેવ"
+      }
+    },
+    {
+      "id": "shiv_tandav",
+      "name": {
+        "en": "Shiv Tandav Stotram",
+        "hi": "शिव तांडव स्तोत्रम्",
+        "gu": "શિવ તાંડવ સ્તોત્રમ્"
+      },
+      "description": {
+        "en": "By Ravana - 16 Shlokas",
+        "hi": "रावण रचित - 16 श्लोक",
+        "gu": "રાવણ રચિત - 16 શ્લોક"
+      }
+    }
+  ]
+}

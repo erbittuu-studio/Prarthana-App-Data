@@ -1,0 +1,62 @@
+{
+  "sections": [
+    {
+      "id": "opening",
+      "verses": [
+        { "id": 1, "first": "Jay Ganesh Girija Suvan, Mangal Mool Sujaan", "second": "Kahat Ayodhyadaas Tum, Dehu Abhay Vardaan" },
+        { "id": 2, "first": "Jay Jay Shri Shanidev Prabhu, Sunhu Vinay Maharaj", "second": "Karhu Kripa Hey Ravi Tanay, Rakhahu Jan Ki Laaj" }
+      ]
+    },
+    {
+      "id": "chaupai",
+      "verses": [
+        { "id": 3, "first": "Jayati Jayati Shanidev Dayala", "second": "Karat Sada Bhaktan Pratipala" },
+        { "id": 4, "first": "Chaar Bhuja Tanu Shyam Viraje", "second": "Mathe Ratan Mukut Chhabi Chhaje" },
+        { "id": 5, "first": "Param Vishal Manohar Bhala", "second": "Neel Vastra Tanu Upar Dala" },
+        { "id": 6, "first": "Haath Gada Trishool Kuthara", "second": "Pal Bich Karein Ari Sanhara" },
+        { "id": 7, "first": "Pingal Nayan Krishn Tanu Mahin", "second": "Saman Tej Brahmand Na Nahin" },
+        { "id": 8, "first": "Mesh Vahan Ati Sohe Pai", "second": "Visham Drishti Ati Shakti Suhai" },
+        { "id": 9, "first": "Panchanan Kar Surya Supooja", "second": "Aur Dev Tum Sam Nahin Dooja" },
+        { "id": 10, "first": "Surya Putra Prabhu Dinkar Nama", "second": "Chhaya Garbh Singhasan Pama" },
+        { "id": 11, "first": "Karmaphal Pradata Sukhkari", "second": "Vidhi Hari Har Tripurari Bhari" },
+        { "id": 12, "first": "Bade Kop Te Rahu Dharayo", "second": "Dakshin Disha Aasya Jag Gayo" },
+        { "id": 13, "first": "Dhoomra Ketu Sam Shobha Pave", "second": "Paap Punj Nashak Birdave" },
+        { "id": 14, "first": "Jo Jan Janm Shani Jo Pave", "second": "Prabhu Pad Nitya Soi Manbhave" },
+        { "id": 15, "first": "Brahma Vishnu Shiv Sur Muni Mahin", "second": "Shani Prakop Bhay Bache Jo Nahin" },
+        { "id": 16, "first": "Raja Indra Nahush Bali Kari", "second": "Sabhi Kiye Shani Dev Dukhari" },
+        { "id": 17, "first": "Ramchandra Par Bhi Shani Aaye", "second": "Bina Baat Banvas Karaye" },
+        { "id": 18, "first": "Sita Haran Bhayo Dashkandhar", "second": "Lakshman Bhaye Moorchha Kar Bandar" },
+        { "id": 19, "first": "Ravan Par Bhi Shani Jab Aayi", "second": "Lanka Dahan Bhayi Asi Bhai" },
+        { "id": 20, "first": "Kaurav Pandav Bhi Shani Grase", "second": "Bharat Beech Mahabharat Base" },
+        { "id": 21, "first": "Nal Naresh Par Shani Jab Dhaye", "second": "Bhrasht Rajya Kasht Sab Paye" },
+        { "id": 22, "first": "Raja Harishchandra Ko Dhara", "second": "Chhadi Rajya Rankan Mein Kara" },
+        { "id": 23, "first": "Vikramaditya Sabal Pratapi", "second": "Shani Dasha Mein Bhaye Analapi" },
+        { "id": 24, "first": "Aur Anek Naresh Jahan", "second": "Kiye Shani Ne Haal Behaal" },
+        { "id": 25, "first": "Kintu Kripa Jab Shani Ki Hoi", "second": "Uttam Se Uttam Phal Hoi" },
+        { "id": 26, "first": "Kanchan Thaar Bhare Manbhavan", "second": "Ur Anand Samriddhi Suhavan" },
+        { "id": 27, "first": "Shani Vakra Drishti Andh Banave", "second": "Saral Drishti Rajya Sukh Pave" },
+        { "id": 28, "first": "Shiv Ke Huye Jo Ek Nishane", "second": "Naam Gun Mahatmya Ko Jaane" },
+        { "id": 29, "first": "Koti Bhanu Prakash Jo Pyara", "second": "Haath Kamal Shobhit Rudraksh Hara" },
+        { "id": 30, "first": "Krishn Varn Ati Sohni Kaya", "second": "Shiv Poojan Kari Sab Sukh Paya" },
+        { "id": 31, "first": "Ambar Nav Grah Mein Pradhan", "second": "Shubh Ashubh Shani Kare Vidhan" },
+        { "id": 32, "first": "Jo Chahe Sukh Sampatti Nana", "second": "Seva Kare Shani Dev Ko Man Mein Lana" },
+        { "id": 33, "first": "Grah Sab Bali Shani Balwana", "second": "Sadesati Dasha Pradhana" },
+        { "id": 34, "first": "Chhoti Dasha Barah Maas Ahai", "second": "Madhya Dasha Sang Tees Rahai" },
+        { "id": 35, "first": "Pratham Dasha Tees Din Jano", "second": "Bhakti Bhav Man Mein Sab Mano" },
+        { "id": 36, "first": "Shani Dev Ki Aisi Mahima", "second": "Bhakt Jan Ki Karte Sab Kshama" },
+        { "id": 37, "first": "Jo Nar Nij Kar Isko Gave", "second": "Sadesati Ka Bhay Nahin Aave" },
+        { "id": 38, "first": "Mesh Rashi Vrish Aur Mithun Mein", "second": "Kark Singh Kanya Var Mein" },
+        { "id": 39, "first": "Tula Vrishchik Aur Dhanu Mein", "second": "Makar Kumbh Meen Lagan Mein" },
+        { "id": 40, "first": "Sab Rashi Mein Shani Jab Aave", "second": "Shubhashubh Gati Tab Hi Pave" },
+        { "id": 41, "first": "Tel Tilhan Daan Shani Ko Kare", "second": "Dukh Daridra Sarv Bhay Hare" },
+        { "id": 42, "first": "Doha Chaupai Aarti Gaye", "second": "Ichhit Var Shanidev Se Paye" }
+      ]
+    },
+    {
+      "id": "closing",
+      "verses": [
+        { "id": 43, "first": "Iti Shri Shani Chalisa Sampurn", "second": "Shani Prasad Sada Shubh Purn" }
+      ]
+    }
+  ]
+}

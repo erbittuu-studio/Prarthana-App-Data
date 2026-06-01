@@ -1,0 +1,211 @@
+{
+  "app": {
+    "name": {
+      "en": "Hanuman Chalisa",
+      "hi": "हनुमान चालीसा",
+      "gu": "હનુમાન ચાલીસા"
+    },
+    "tagline": {
+      "en": "Sacred Texts & Prayers",
+      "hi": "पवित्र ग्रंथ और प्रार्थनाएँ",
+      "gu": "પવિત્ર ગ્રંથો અને પ્રાર્થનાઓ"
+    },
+    "supportEmail": "utsavhacker@gmail.com"
+  },
+  "data": {
+    "contentVersion": 1,
+    "minAppVersion": "1.0"
+  },
+  "config": {
+    "forceUpdate": false,
+    "maintenanceMode": false,
+    "showAds": false
+  },
+  "languages": {
+    "en": true,
+    "hi": true,
+    "gu": true
+  },
+  "items": [
+    {
+      "id": "chalisa",
+      "name": {
+        "en": "Hanuman Chalisa",
+        "hi": "हनुमान चालीसा",
+        "gu": "હનુમાન ચાલીસા"
+      },
+      "description": {
+        "en": "40 Chaupai by Tulsidas",
+        "hi": "40 चौपाई - तुलसीदास",
+        "gu": "40 ચોપાઈ - તુલસીદાસ"
+      },
+      "path": "texts/chalisa/index.json",
+      "bundle": "texts/chalisa.zip",
+      "languages": [
+        "en",
+        "gu",
+        "hi"
+      ],
+      "hasAudio": true,
+      "hasMeanings": true,
+      "hasImage": false,
+      "checksum": "8bb65f1fe5781e8061b06447f7858c40ea2a6edcc3d26da1e6f0c59b37639d36",
+      "size": 4548843
+    },
+    {
+      "id": "bajrang_baan",
+      "name": {
+        "en": "Bajrang Baan",
+        "hi": "बजरंग बाण",
+        "gu": "બજરંગ બાણ"
+      },
+      "description": {
+        "en": "Powerful Protection Prayer",
+        "hi": "शक्तिशाली सुरक्षा प्रार्थना",
+        "gu": "શક્તિશાળી સુરક્ષા પ્રાર્થના"
+      },
+      "path": "texts/bajrang_baan/index.json",
+      "bundle": "texts/bajrang_baan.zip",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "hasAudio": false,
+      "hasMeanings": false,
+      "hasImage": false,
+      "checksum": "47c24a1153c434f6bf7ea57cc874a2b3c29d77dd8aa154af66558efd22b6005f",
+      "size": 4555
+    },
+    {
+      "id": "sankat_mochan",
+      "name": {
+        "en": "Sankat Mochan Hanumanashtak",
+        "hi": "संकटमोचन हनुमानाष्टक",
+        "gu": "સંકટમોચન હનુમાનાષ્ટક"
+      },
+      "description": {
+        "en": "8 Verses - Remover of Difficulties",
+        "hi": "8 छंद - कष्ट निवारक",
+        "gu": "8 છંદ - કષ્ટ નિવારક"
+      },
+      "path": "texts/sankat_mochan/index.json",
+      "bundle": "texts/sankat_mochan.zip",
+      "languages": [
+        "gu",
+        "hi",
+        "en"
+      ],
+      "hasAudio": false,
+      "hasMeanings": false,
+      "hasImage": false,
+      "checksum": "91775088aa3b11b82e9882122ed735cb8e1169d2393f5ca317d35b6ee9f33418",
+      "size": 3869
+    },
+    {
+      "id": "jay_adhya_shakti",
+      "name": {
+        "en": "Jay Adhya Shakti",
+        "hi": "जय आद्या शक्ति",
+        "gu": "જય આદ્યા શક્તિ"
+      },
+      "description": {
+        "en": "Ambaji Maa Aarti",
+        "hi": "माँ अम्बाजी की आरती",
+        "gu": "માઁ અંબાજી આરતી"
+      },
+      "path": "texts/jay_adhya_shakti/index.json",
+      "bundle": "texts/jay_adhya_shakti.zip",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "hasAudio": false,
+      "hasMeanings": false,
+      "hasImage": false,
+      "checksum": "4a58dcae056d730ff8647119992b8a9d427e327aed00ed0f5a3f35109be4b85a",
+      "size": 2339
+    },
+    {
+      "id": "ganesh_aarti",
+      "name": {
+        "en": "Ganesh Aarti",
+        "hi": "गणेश आरती",
+        "gu": "ગણેશ આરતી"
+      },
+      "description": {
+        "en": "Jai Ganesh Jai Ganesh Deva",
+        "hi": "जय गणेश जय गणेश देवा",
+        "gu": "જય ગણેશ જય ગણેશ દેવા"
+      },
+      "path": "texts/ganesh_aarti/index.json",
+      "bundle": "texts/ganesh_aarti.zip",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "hasAudio": false,
+      "hasMeanings": false,
+      "hasImage": false,
+      "checksum": "5cfafad327fbb2258670d1efd01947adca5d0c7f8d07425735d12399c504ebe0",
+      "size": 1956
+    },
+    {
+      "id": "shani_chalisa",
+      "name": {
+        "en": "Shani Chalisa",
+        "hi": "शनि चालीसा",
+        "gu": "શનિ ચાલીસા"
+      },
+      "description": {
+        "en": "40 Chaupai - Lord Shani",
+        "hi": "40 चौपाई - शनि देव",
+        "gu": "40 ચોપાઈ - શનિ દેવ"
+      },
+      "path": "texts/shani_chalisa/index.json",
+      "bundle": "texts/shani_chalisa.zip",
+      "languages": [
+        "hi",
+        "gu",
+        "en"
+      ],
+      "hasAudio": false,
+      "hasMeanings": false,
+      "hasImage": false,
+      "checksum": "de9ba68c33d433960e91299e58d97cc772afcb3fc57deeb1b5cc06158d0fdce8",
+      "size": 6330
+    },
+    {
+      "id": "shiv_tandav",
+      "name": {
+        "en": "Shiv Tandav Stotram",
+        "hi": "शिव तांडव स्तोत्रम्",
+        "gu": "શિવ તાંડવ સ્તોત્રમ્"
+      },
+      "description": {
+        "en": "By Ravana - 16 Shlokas",
+        "hi": "रावण रचित - 16 श्लोक",
+        "gu": "રાવણ રચિત - 16 શ્લોક"
+      },
+      "path": "texts/shiv_tandav/index.json",
+      "bundle": "texts/shiv_tandav.zip",
+      "languages": [
+        "gu",
+        "hi",
+        "en"
+      ],
+      "hasAudio": false,
+      "hasMeanings": false,
+      "hasImage": false,
+      "checksum": "003b90058d4fcecc3498c5b029aa577f0f5d6040c14adbd012018b45fa685c3d",
+      "size": 5571
+    }
+  ],
+  "_meta": {
+    "generatedAt": "2026-06-01T17:22:43.245936Z",
+    "generator": "build.py",
+    "itemCount": 7
+  }
+}
