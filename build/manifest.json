@@ -13,8 +13,7 @@
     "supportEmail": "utsavhacker@gmail.com"
   },
   "data": {
-    "schemaVersion": 1,
-    "contentVersion": 3,
+    "version": 5,
     "minAppVersion": "1.0"
   },
   "config": {
@@ -50,7 +49,7 @@
       "hasAudio": true,
       "hasMeanings": true,
       "hasImage": true,
-      "checksum": "c3f4b3a809acc0a81a92ae3bed990139018f873eb4c31adc9427dfed4df82f4d",
+      "checksum": "c7b20781627a603c9b03ed15963d35e960e88e72f730f48c818f5332fe4c8a0a",
       "size": 4958087
     },
     {
@@ -75,7 +74,7 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": true,
-      "checksum": "08ff931fbcbb5e7e1c4bd88b3498ea0d3c4d3315c858603aaa1b46d839adefae",
+      "checksum": "3cfddcb3341b2e9ed4655802602f44eb92dea93324f0cb9b03733514311626f3",
       "size": 11188040
     },
     {
@@ -100,7 +99,7 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": true,
-      "checksum": "6f9dbff8e7f30f414a54dc57ed918738078155f54433b2a1828fbb8c2e4c668c",
+      "checksum": "d038dcdc163e997170bf4a13c3ff07298ee26a8159c5ae9e7914d9f1df94a37b",
       "size": 8876127
     },
     {
@@ -125,7 +124,7 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": true,
-      "checksum": "4b13681711014a950b7e39deeb2e4d05be5d91037b129f994ce4c9ca4ba62307",
+      "checksum": "0d642b0bf39aed9205888e1188e410fae0318d2bc666ae5771dfb9e708d3aebd",
       "size": 19790941
     },
     {
@@ -150,7 +149,7 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": true,
-      "checksum": "a696380a44817630a5dd51365980aa8a4e6ec6c72e23845c58c57396a332cb85",
+      "checksum": "926b2d3ce31ce414ae49c6fcf642a8bc74dcd252d6c7f914668293527feb31d4",
       "size": 6539508
     },
     {
@@ -175,7 +174,7 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": true,
-      "checksum": "7c6ee263dfc7249c270e26a5848aea23de4d28eee7d9f243f7998fcb7f230a91",
+      "checksum": "e585c7fb01628594546f5bbb1e6cbd163d015b40dfe653b7ec32bc3ce703fee7",
       "size": 37849111
     },
     {
@@ -200,12 +199,12 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": true,
-      "checksum": "704a6ad242957771b280b0a1884168a3582e9426d1c1df1f7e3a67cfd188b13a",
+      "checksum": "cdd290012c6c7b8b595b08cc10398bba93ec9b0b0863449a977614ae23b1b1f9",
       "size": 9617165
     }
   ],
   "_meta": {
-    "generatedAt": "2026-06-02T03:17:55.187617Z",
+    "generatedAt": "2026-06-02T03:46:39.876868Z",
     "generator": "build.py",
     "itemCount": 7
   }
