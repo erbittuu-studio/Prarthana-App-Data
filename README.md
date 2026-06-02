@@ -65,11 +65,11 @@ source/my_item/
 ### 3. Run Build Script
 
 ```bash
-# Content update (smart - app downloads only changed items)
+# Build, bump version, commit & push to GitHub
 python build.py --publish
 
-# Breaking change (app clears cache, downloads everything)
-python build.py --reset
+# Build only (no version bump, no push)
+python build.py
 
 # Clean build with publish
 python build.py --clean --publish
@@ -79,15 +79,6 @@ python build.py --verbose --publish
 
 # Verify existing build
 python build.py --verify
-```
-
-### 4. Deploy to GitHub
-
-Commit and push the `build/` directory to GitHub:
-```bash
-git add build/
-git commit -m "Content update v2"
-git push
 ```
 
 ## Content File Formats
@@ -134,44 +125,40 @@ The build script generates `manifest.json` with:
 
 ## Version Management
 
-### Two Version Types
+### Simple Version System
 
-| Version | Flag | App Behavior |
-|---------|------|--------------|
-| `contentVersion` | `--publish` | App compares checksums, downloads only changed items |
-| `schemaVersion` | `--reset` | App clears all cache, downloads everything fresh |
+Single `version` number in `index.json`. When version changes:
+1. App detects the new version
+2. Clears local cache
+3. Downloads all items (using checksums to skip unchanged ZIPs)
 
-### When to Use Each
+### Checksum-Based Smart Downloads
 
-**Use `--publish` for:**
-- Adding/updating content (JSON, MP3, images)
-- Fixing typos or content errors
-- Adding new items
-
-**Use `--reset` for:**
-- Breaking schema changes (new required fields)
-- Major restructuring of data format
-- When you want all users to start fresh
+Even though cache is cleared on version change, the app uses SHA-256 checksums to:
+- Skip downloading ZIPs that haven't changed
+- Only download items with different checksums
+- Verify integrity of downloaded files
 
 ### Quick Workflow
 
 ```bash
 # 1. Edit content files in source/
-# 2. Build and publish
-python build.py --clean --publish
-
-# 3. Deploy to GitHub
-git add build/ index.json
-git commit -m "Content update"
-git push
+# 2. Build, bump version, and push to GitHub
+python build.py --publish
 ```
 
-### How Smart Updates Work
+That's it! The script handles:
+- Incrementing the version
+- Building all ZIP bundles
+- Computing checksums
+- Committing and pushing to GitHub
+
+### How Updates Work
 
 1. App fetches `manifest.json` from server
-2. Compares `schemaVersion`:
-   - If changed → Clear all cache, re-download everything
-3. Compares item checksums:
-   - Different checksum → Re-download that item
-   - Same checksum → Skip (already up-to-date)
+2. Compares `version`:
+   - If different → Clear cache
+3. For each item, compares checksums:
+   - Different checksum → Download that item
+   - Same checksum → Skip (use existing file)
 4. Removes items no longer in manifest
