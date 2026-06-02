@@ -14,7 +14,7 @@
   },
   "data": {
     "schemaVersion": 1,
-    "contentVersion": 1,
+    "contentVersion": 2,
     "minAppVersion": "1.0"
   },
   "config": {
@@ -50,8 +50,8 @@
       "hasAudio": true,
       "hasMeanings": true,
       "hasImage": true,
-      "checksum": "ac8199dd6000ef02d4625a6aedac30fde62e7f24a582e79e6fdec148f5386286",
-      "size": 4715092
+      "checksum": "cacb0c6249c47b23f1a9d83e2e7921c551edd583ebbf83336f737b33c746794b",
+      "size": 4958087
     },
     {
       "id": "bajrang_baan",
@@ -75,8 +75,8 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": true,
-      "checksum": "14c99fd6294fb313ba6d6eca58efcb2c5e91b99da1b865e2af25c0e807b750bb",
-      "size": 11140626
+      "checksum": "8d18e388f22b1c54473db718658f5ad7657822db7759e7f9e14ba671388a3648",
+      "size": 11188040
     },
     {
       "id": "sankat_mochan",
@@ -100,8 +100,8 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": true,
-      "checksum": "e992858e1eb644cb7cec2d4451ad3aa56e8168b23fe68d6031bd0c648201ea67",
-      "size": 8869514
+      "checksum": "3da6aade0c0ab54fa1019c3eaf3a143cd128cbb8df0411407e4b5c3138f6adc3",
+      "size": 8876127
     },
     {
       "id": "jay_adhya_shakti",
@@ -125,8 +125,8 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": true,
-      "checksum": "60577a023222a712cb18c65ee3a5b85c4bf7556795fa5e496eaeb36c70505af2",
-      "size": 19550908
+      "checksum": "7b70c57a46671787cfea7f9fb39849f27385f86e8e8ebc5dda792c27cad2b057",
+      "size": 19790941
     },
     {
       "id": "ganesh_aarti",
@@ -150,8 +150,8 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": true,
-      "checksum": "06c9ee376005bcae654232d711c834e41d5fcc68492cdfd96c12fd4cf2edad1c",
-      "size": 6650471
+      "checksum": "0c5498a37105ec8321182e58578501d8c5955afb652230736c4257b39bcd331c",
+      "size": 6539508
     },
     {
       "id": "shani_chalisa",
@@ -175,8 +175,8 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": true,
-      "checksum": "bd5a530c03b425f4867d14482668f43be621fa921eda80740d7858ab05c25ebe",
-      "size": 37943872
+      "checksum": "3cfbb4261f316958e27865f1600a05e5413eae935f3a0923bb4218fcf35124d5",
+      "size": 37849111
     },
     {
       "id": "shiv_tandav",
@@ -200,12 +200,12 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": true,
-      "checksum": "eab538be778f6a11df58d2611db9d5ebad9daf9e0088edae6bfbd6288b2f42c1",
-      "size": 9403903
+      "checksum": "5874fc5e283a1fb1930e4784cc9ea9c8d58483c0348aeaf08336554cd98f7825",
+      "size": 9617165
     }
   ],
   "_meta": {
-    "generatedAt": "2026-06-01T18:29:27.217803Z",
+    "generatedAt": "2026-06-02T03:13:32.780387Z",
     "generator": "build.py",
     "itemCount": 7
   }
