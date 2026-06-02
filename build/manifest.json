@@ -14,7 +14,7 @@
   },
   "data": {
     "schemaVersion": 1,
-    "contentVersion": 2,
+    "contentVersion": 3,
     "minAppVersion": "1.0"
   },
   "config": {
@@ -50,7 +50,7 @@
       "hasAudio": true,
       "hasMeanings": true,
       "hasImage": true,
-      "checksum": "cacb0c6249c47b23f1a9d83e2e7921c551edd583ebbf83336f737b33c746794b",
+      "checksum": "c3f4b3a809acc0a81a92ae3bed990139018f873eb4c31adc9427dfed4df82f4d",
       "size": 4958087
     },
     {
@@ -75,7 +75,7 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": true,
-      "checksum": "8d18e388f22b1c54473db718658f5ad7657822db7759e7f9e14ba671388a3648",
+      "checksum": "08ff931fbcbb5e7e1c4bd88b3498ea0d3c4d3315c858603aaa1b46d839adefae",
       "size": 11188040
     },
     {
@@ -100,7 +100,7 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": true,
-      "checksum": "3da6aade0c0ab54fa1019c3eaf3a143cd128cbb8df0411407e4b5c3138f6adc3",
+      "checksum": "6f9dbff8e7f30f414a54dc57ed918738078155f54433b2a1828fbb8c2e4c668c",
       "size": 8876127
     },
     {
@@ -125,7 +125,7 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": true,
-      "checksum": "7b70c57a46671787cfea7f9fb39849f27385f86e8e8ebc5dda792c27cad2b057",
+      "checksum": "4b13681711014a950b7e39deeb2e4d05be5d91037b129f994ce4c9ca4ba62307",
       "size": 19790941
     },
     {
@@ -150,7 +150,7 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": true,
-      "checksum": "0c5498a37105ec8321182e58578501d8c5955afb652230736c4257b39bcd331c",
+      "checksum": "a696380a44817630a5dd51365980aa8a4e6ec6c72e23845c58c57396a332cb85",
       "size": 6539508
     },
     {
@@ -175,7 +175,7 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": true,
-      "checksum": "3cfbb4261f316958e27865f1600a05e5413eae935f3a0923bb4218fcf35124d5",
+      "checksum": "7c6ee263dfc7249c270e26a5848aea23de4d28eee7d9f243f7998fcb7f230a91",
       "size": 37849111
     },
     {
@@ -200,12 +200,12 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": true,
-      "checksum": "5874fc5e283a1fb1930e4784cc9ea9c8d58483c0348aeaf08336554cd98f7825",
+      "checksum": "704a6ad242957771b280b0a1884168a3582e9426d1c1df1f7e3a67cfd188b13a",
       "size": 9617165
     }
   ],
   "_meta": {
-    "generatedAt": "2026-06-02T03:13:32.780387Z",
+    "generatedAt": "2026-06-02T03:17:55.187617Z",
     "generator": "build.py",
     "itemCount": 7
   }
