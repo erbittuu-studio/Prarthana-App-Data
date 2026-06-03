@@ -13,7 +13,7 @@
     "supportEmail": "utsavhacker@gmail.com"
   },
   "data": {
-    "version": 5,
+    "version": 6,
     "minAppVersion": "1.0"
   },
   "config": {
@@ -90,19 +90,6 @@
         "en": "Jai Ganesh Jai Ganesh Deva",
         "hi": "जय गणेश जय गणेश देवा",
         "gu": "જય ગણેશ જય ગણેશ દેવા"
-      }
-    },
-    {
-      "id": "shani_chalisa",
-      "name": {
-        "en": "Shani Chalisa",
-        "hi": "शनि चालीसा",
-        "gu": "શનિ ચાલીસા"
-      },
-      "description": {
-        "en": "40 Chaupai - Lord Shani",
-        "hi": "40 चौपाई - शनि देव",
-        "gu": "40 ચોપાઈ - શનિ દેવ"
       }
     },
     {

@@ -13,7 +13,7 @@
     "supportEmail": "utsavhacker@gmail.com"
   },
   "data": {
-    "version": 5,
+    "version": 6,
     "minAppVersion": "1.0"
   },
   "config": {
@@ -49,8 +49,8 @@
       "hasAudio": true,
       "hasMeanings": true,
       "hasImage": true,
-      "checksum": "c7b20781627a603c9b03ed15963d35e960e88e72f730f48c818f5332fe4c8a0a",
-      "size": 4958087
+      "checksum": "d4084e9a014ab69ee24aa75fac3fb7469363337093a98402b39706f49dd5262e",
+      "size": 4677311
     },
     {
       "id": "bajrang_baan",
@@ -74,8 +74,8 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": true,
-      "checksum": "3cfddcb3341b2e9ed4655802602f44eb92dea93324f0cb9b03733514311626f3",
-      "size": 11188040
+      "checksum": "5a7a2374cac40fb05a34cf4d82ec63e0f73860d325ef3cac3198289bba888945",
+      "size": 11362111
     },
     {
       "id": "sankat_mochan",
@@ -99,8 +99,8 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": true,
-      "checksum": "d038dcdc163e997170bf4a13c3ff07298ee26a8159c5ae9e7914d9f1df94a37b",
-      "size": 8876127
+      "checksum": "5ede672be8e7ef3e3102a43e43fb388e77b334cb917788c23aa2936de57cb998",
+      "size": 9010743
     },
     {
       "id": "jay_adhya_shakti",
@@ -124,8 +124,8 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": true,
-      "checksum": "0d642b0bf39aed9205888e1188e410fae0318d2bc666ae5771dfb9e708d3aebd",
-      "size": 19790941
+      "checksum": "08f8a603e61c7a9aba1a2d8123c90773754079b7294fe37b19f5dc18f14beeaf",
+      "size": 19517538
     },
     {
       "id": "ganesh_aarti",
@@ -149,33 +149,8 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": true,
-      "checksum": "926b2d3ce31ce414ae49c6fcf642a8bc74dcd252d6c7f914668293527feb31d4",
-      "size": 6539508
-    },
-    {
-      "id": "shani_chalisa",
-      "name": {
-        "en": "Shani Chalisa",
-        "hi": "शनि चालीसा",
-        "gu": "શનિ ચાલીસા"
-      },
-      "description": {
-        "en": "40 Chaupai - Lord Shani",
-        "hi": "40 चौपाई - शनि देव",
-        "gu": "40 ચોપાઈ - શનિ દેવ"
-      },
-      "path": "texts/shani_chalisa/index.json",
-      "bundle": "texts/shani_chalisa.zip",
-      "languages": [
-        "hi",
-        "gu",
-        "en"
-      ],
-      "hasAudio": true,
-      "hasMeanings": false,
-      "hasImage": true,
-      "checksum": "e585c7fb01628594546f5bbb1e6cbd163d015b40dfe653b7ec32bc3ce703fee7",
-      "size": 37849111
+      "checksum": "c7bed54d8f58f535a4116e853a1768332d51b54023a13163dfc4d2368e02370c",
+      "size": 6649761
     },
     {
       "id": "shiv_tandav",
@@ -199,13 +174,13 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": true,
-      "checksum": "cdd290012c6c7b8b595b08cc10398bba93ec9b0b0863449a977614ae23b1b1f9",
-      "size": 9617165
+      "checksum": "deaf97e3415332b875982871c0154e5a7c4bbb97daea8bfa6f29ae9c3202cea2",
+      "size": 9382924
     }
   ],
   "_meta": {
-    "generatedAt": "2026-06-02T03:46:39.876868Z",
+    "generatedAt": "2026-06-03T17:29:49.449137Z",
     "generator": "build.py",
-    "itemCount": 7
+    "itemCount": 6
   }
 }
