@@ -62,6 +62,8 @@ SOURCE_DIR = SCRIPT_DIR / "source"
 BUILD_DIR = SCRIPT_DIR / "build"
 INDEX_FILE = SCRIPT_DIR / "index.json"
 TEXTS_DIR = BUILD_DIR / "texts"
+CATEGORIES_SRC_DIR = SOURCE_DIR / "categories"
+CATEGORIES_BUILD_DIR = BUILD_DIR / "categories"
 
 AUDIO_EXTENSIONS = [".mp3", ".m4a", ".wav", ".aac"]
 IMAGE_EXTENSIONS = [".png", ".jpg", ".jpeg", ".webp"]
@@ -325,7 +327,33 @@ def create_manifest_item(item_meta: Dict, files: Dict, zip_path: Path) -> Dict:
     }
 
 
-def create_manifest(index: Dict, items: List[Dict]) -> Dict:
+def copy_category_images(categories: List[Dict], verbose: bool = False) -> List[Dict]:
+    """Copy category images to build directory and return updated categories with paths."""
+    if not CATEGORIES_SRC_DIR.exists():
+        log_warning("No categories source folder found")
+        return categories
+
+    CATEGORIES_BUILD_DIR.mkdir(parents=True, exist_ok=True)
+
+    updated_categories = []
+    for category in categories:
+        cat_copy = category.copy()
+        if "image" in category:
+            src_image = CATEGORIES_SRC_DIR / category["image"]
+            if src_image.exists():
+                dst_image = CATEGORIES_BUILD_DIR / category["image"]
+                shutil.copy2(src_image, dst_image)
+                cat_copy["image"] = f"categories/{category['image']}"
+                log(f"  Copied: {category['image']}", verbose)
+            else:
+                log_warning(f"Category image not found: {src_image}")
+                cat_copy.pop("image", None)
+        updated_categories.append(cat_copy)
+
+    return updated_categories
+
+
+def create_manifest(index: Dict, items: List[Dict], verbose: bool = False) -> Dict:
     """Create the complete manifest.json."""
     manifest = {
         "app": index["app"],
@@ -339,6 +367,11 @@ def create_manifest(index: Dict, items: List[Dict]) -> Dict:
             "itemCount": len(items)
         }
     }
+
+    # Include categories if defined, with updated image paths
+    if "categories" in index:
+        manifest["categories"] = copy_category_images(index["categories"], verbose)
+
     return manifest
 
 
@@ -488,10 +521,12 @@ def build(verbose: bool = False) -> tuple[bool, Optional[Dict], List[Dict]]:
             log_error(f"Failed to build: {item_id}")
 
     log_section("Creating Manifest")
-    manifest = create_manifest(index, manifest_items)
+    manifest = create_manifest(index, manifest_items, verbose)
     manifest_path = BUILD_DIR / "manifest.json"
     save_json(manifest_path, manifest)
     log_success(f"Created manifest.json with {len(manifest_items)} items")
+    if "categories" in manifest:
+        log_success(f"Included {len(manifest['categories'])} categories with images")
 
     return len(errors) == 0, index, manifest_items
 

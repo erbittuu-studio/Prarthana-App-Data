@@ -13,7 +13,7 @@
     "supportEmail": "utsavhacker@gmail.com"
   },
   "data": {
-    "version": 6,
+    "version": 7,
     "minAppVersion": "1.0"
   },
   "config": {
@@ -26,6 +26,70 @@
     "hi": true,
     "gu": true
   },
+  "categories": [
+    {
+      "id": "hanuman",
+      "name": {
+        "en": "Hanuman",
+        "hi": "हनुमान",
+        "gu": "હનુમાન"
+      },
+      "image": "hanuman.jpg",
+      "items": ["hauman_chalisa", "bajrang_baan", "sankat_mochan"]
+    },
+    {
+      "id": "shiva",
+      "name": {
+        "en": "Shiva",
+        "hi": "शिव",
+        "gu": "શિવ"
+      },
+      "image": "shiva.jpg",
+      "items": ["shiv_tandav"]
+    },
+    {
+      "id": "ganesh",
+      "name": {
+        "en": "Ganesh",
+        "hi": "गणेश",
+        "gu": "ગણેશ"
+      },
+      "image": "ganesh.jpg",
+      "items": ["ganesh_aarti", "vakratunda_mahakaya"]
+    },
+    {
+      "id": "devi",
+      "name": {
+        "en": "Devi",
+        "hi": "देवी",
+        "gu": "દેવી"
+      },
+      "image": "devi.jpg",
+      "items": ["jay_adhya_shakti", "saraswati_vandana", "saraswati_namastubhyam"]
+    },
+    {
+      "id": "daily_prayers",
+      "name": {
+        "en": "Daily Prayers",
+        "hi": "दैनिक प्रार्थना",
+        "gu": "દૈનિક પ્રાર્થના"
+      },
+      "image": "daily_prayers.jpg",
+      "items": [
+        "gayatri_mantra",
+        "guru_brahma",
+        "om_sahana_vavatu",
+        "twameva_mata",
+        "asato_ma",
+        "karagre_vasate",
+        "shubham_karoti",
+        "vakratunda_mahakaya",
+        "ganesh_aarti",
+        "saraswati_vandana",
+        "saraswati_namastubhyam"
+      ]
+    }
+  ],
   "items": [
     {
       "id": "hauman_chalisa",
@@ -103,6 +167,136 @@
         "en": "By Ravana - 16 Shlokas",
         "hi": "रावण रचित - 16 श्लोक",
         "gu": "રાવણ રચિત - 16 શ્લોક"
+      }
+    },
+    {
+      "id": "gayatri_mantra",
+      "name": {
+        "en": "Gayatri Mantra",
+        "hi": "गायत्री मंत्र",
+        "gu": "ગાયત્રી મંત્ર"
+      },
+      "description": {
+        "en": "Most Powerful Vedic Mantra",
+        "hi": "सबसे शक्तिशाली वैदिक मंत्र",
+        "gu": "સૌથી શક્તિશાળી વૈદિક મંત્ર"
+      }
+    },
+    {
+      "id": "saraswati_vandana",
+      "name": {
+        "en": "Saraswati Vandana",
+        "hi": "सरस्वती वंदना",
+        "gu": "સરસ્વતી વંદના"
+      },
+      "description": {
+        "en": "Prayer to Goddess of Knowledge",
+        "hi": "ज्ञान की देवी की प्रार्थना",
+        "gu": "જ્ઞાનની દેવીની પ્રાર્થના"
+      }
+    },
+    {
+      "id": "guru_brahma",
+      "name": {
+        "en": "Guru Brahma Guru Vishnu",
+        "hi": "गुरु ब्रह्मा गुरु विष्णु",
+        "gu": "ગુરુ બ્રહ્મા ગુરુ વિષ્ણુ"
+      },
+      "description": {
+        "en": "Guru Mantra - Salutation to Teacher",
+        "hi": "गुरु मंत्र - गुरु वंदना",
+        "gu": "ગુરુ મંત્ર - ગુરુ વંદના"
+      }
+    },
+    {
+      "id": "om_sahana_vavatu",
+      "name": {
+        "en": "Om Sahana Vavatu",
+        "hi": "ॐ सह नाववतु",
+        "gu": "ૐ સહ નાવવતુ"
+      },
+      "description": {
+        "en": "Shanti Mantra - Peace Invocation",
+        "hi": "शांति मंत्र",
+        "gu": "શાંતિ મંત્ર"
+      }
+    },
+    {
+      "id": "twameva_mata",
+      "name": {
+        "en": "Twameva Mata Cha Pita Twameva",
+        "hi": "त्वमेव माता च पिता त्वमेव",
+        "gu": "ત્વમેવ માતા ચ પિતા ત્વમેવ"
+      },
+      "description": {
+        "en": "Universal Prayer of Surrender",
+        "hi": "समर्पण की प्रार्थना",
+        "gu": "સમર્પણની પ્રાર્થના"
+      }
+    },
+    {
+      "id": "vakratunda_mahakaya",
+      "name": {
+        "en": "Vakratunda Mahakaya",
+        "hi": "वक्रतुण्ड महाकाय",
+        "gu": "વક્રતુંડ મહાકાય"
+      },
+      "description": {
+        "en": "Ganesh Shloka - Remover of Obstacles",
+        "hi": "गणेश श्लोक - विघ्नहर्ता",
+        "gu": "ગણેશ શ્લોક - વિઘ્નહર્તા"
+      }
+    },
+    {
+      "id": "saraswati_namastubhyam",
+      "name": {
+        "en": "Saraswati Namastubhyam",
+        "hi": "सरस्वती नमस्तुभ्यम्",
+        "gu": "સરસ્વતી નમસ્તુભ્યમ્"
+      },
+      "description": {
+        "en": "Saraswati Shloka for Studies",
+        "hi": "विद्या के लिए सरस्वती श्लोक",
+        "gu": "વિદ્યા માટે સરસ્વતી શ્લોક"
+      }
+    },
+    {
+      "id": "asato_ma",
+      "name": {
+        "en": "Asato Ma Sadgamaya",
+        "hi": "असतो मा सद्गमय",
+        "gu": "અસતો મા સદ્ગમય"
+      },
+      "description": {
+        "en": "Lead Me from Darkness to Light",
+        "hi": "अंधकार से प्रकाश की ओर",
+        "gu": "અંધકારથી પ્રકાશ તરફ"
+      }
+    },
+    {
+      "id": "karagre_vasate",
+      "name": {
+        "en": "Karagre Vasate Lakshmi",
+        "hi": "कराग्रे वसते लक्ष्मी",
+        "gu": "કરાગ્રે વસતે લક્ષ્મી"
+      },
+      "description": {
+        "en": "Morning Prayer - Kar Darshan",
+        "hi": "प्रातः प्रार्थना - कर दर्शन",
+        "gu": "પ્રાતઃ પ્રાર્થના - કર દર્શન"
+      }
+    },
+    {
+      "id": "shubham_karoti",
+      "name": {
+        "en": "Shubham Karoti Kalyanam",
+        "hi": "शुभं करोति कल्याणम्",
+        "gu": "શુભં કરોતિ કલ્યાણમ્"
+      },
+      "description": {
+        "en": "Evening Prayer - Deep Shloka",
+        "hi": "संध्या प्रार्थना - दीप श्लोक",
+        "gu": "સંધ્યા પ્રાર્થના - દીપ શ્લોક"
       }
     }
   ]
