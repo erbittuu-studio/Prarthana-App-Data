@@ -1,0 +1,22 @@
+{
+  "sections": [
+    {
+      "id": "main",
+      "verses": [
+        { "id": 1, "first": "Jai Ambe Gauri, Maiya Jai Shyama Gauri", "second": "Tumko Nishdin Dhyavat, Hari Brahma Shivri || Jai Ambe Gauri ||" },
+        { "id": 2, "first": "Maang Sindoor Virajat, Teeko Mrigmad Ko", "second": "Ujjwal Se Dou Naina, Chandravadan Neeko || Jai Ambe Gauri ||" },
+        { "id": 3, "first": "Kanak Saman Kalevar, Raktambar Rajai", "second": "Raktapushp Gal Mala, Kanthan Par Sajai || Jai Ambe Gauri ||" },
+        { "id": 4, "first": "Kehari Vahan Rajat, Khadg Khappar Dhari", "second": "Sur-Nar-Munijan Sevat, Tinke Dukhahari || Jai Ambe Gauri ||" },
+        { "id": 5, "first": "Kanan Kundal Shobhit, Nasagre Moti", "second": "Kotik Chandra Divakar, Sam Rajat Jyoti || Jai Ambe Gauri ||" },
+        { "id": 6, "first": "Shumbh Nishumbh Vidare, Mahishasur Ghati", "second": "Dhumra Vilochan Naina, Nishdin Madmati || Jai Ambe Gauri ||" },
+        { "id": 7, "first": "Chand Mund Sanhare, Shonit Beej Hare", "second": "Madhu Kaitabh Dou Mare, Sur Bhayaheen Kare || Jai Ambe Gauri ||" },
+        { "id": 8, "first": "Brahmani Rudrani Tum Kamala Rani", "second": "Aagam Nigam Bakhani, Tum Shiv Patrani || Jai Ambe Gauri ||" },
+        { "id": 9, "first": "Chaunsath Yogini Gavat, Nritya Karat Bhairon", "second": "Bajat Taal Mridanga, Aru Bajat Damru || Jai Ambe Gauri ||" },
+        { "id": 10, "first": "Tum Ho Jag Ki Mata, Tum Hi Ho Bharta", "second": "Bhaktan Ki Dukh Harta, Sukh Sampatti Karta || Jai Ambe Gauri ||" },
+        { "id": 11, "first": "Bhuja Char Ati Shobhit, Var Mudra Dhari", "second": "Manvanchhit Phal Pavat, Sevat Nar Nari || Jai Ambe Gauri ||" },
+        { "id": 12, "first": "Kanchan Thal Virajat, Agar Kapoor Bati", "second": "Malketu Mein Rajat, Koti Ratan Jyoti || Jai Ambe Gauri ||" },
+        { "id": 13, "first": "Shri Ambeji Ki Aarti, Jo Koi Nar Gave", "second": "Kahat Shivanand Swami, Sukh Sampatti Pave || Jai Ambe Gauri ||" }
+      ]
+    }
+  ]
+}
