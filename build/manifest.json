@@ -13,7 +13,7 @@
     "supportEmail": "utsavhacker@gmail.com"
   },
   "data": {
-    "version": 7,
+    "version": 8,
     "minAppVersion": "1.0"
   },
   "config": {
@@ -49,7 +49,7 @@
       "hasAudio": true,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "642394a7164f76009ce7b5014055acefc0d42c888e57568de3275851ae8d331c",
+      "checksum": "f2ab89fecbd431222a11a0fee6ff76372d3bd8ee957744560565ea986c57c345",
       "size": 4549003
     },
     {
@@ -74,7 +74,7 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "fd6335e49a38705e8c87501fa93b6a9ea87165a40475191a99d24197876c768a",
+      "checksum": "c61c36214725724276f055959ec72a1cfb67128fb0107eefa7341da6f6f24cf8",
       "size": 11101188
     },
     {
@@ -99,7 +99,7 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "8aaac7326e62503a6a2ea03aae25771a09f93c96b2435ff109e74ee58152d6de",
+      "checksum": "5fe5ea38d18c154365fd696d6a865415c7f91cb2ddaee28dc2e773f4cf5bac4f",
       "size": 8812198
     },
     {
@@ -124,7 +124,7 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "0f4226d058b87ddc9a1a8faf50cdd98c1675a6a9816478ccdd4123acd7a66f45",
+      "checksum": "7e5050e0322f911c97a19294edfcfb2860621f809774481bcbc3fc567c885842",
       "size": 19432118
     },
     {
@@ -149,7 +149,7 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "983b9a40c9a6cbb2cd11df663908daa64751c7a677842c0bbdc4e6a4ac04342d",
+      "checksum": "6dff7e4d900ab270559bf7ebc55413329402d372b49e7d62133591c89b9d0fc4",
       "size": 6486464
     },
     {
@@ -174,7 +174,7 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "a645cff1495b38e784fdf3493f24fb33ea8b81cebd336448ca995192c764272a",
+      "checksum": "035b4d3b8b3506a36fa2fc079168867da71add6bbd518ea1ca00001cb8192a05",
       "size": 9269482
     },
     {
@@ -199,7 +199,7 @@
       "hasAudio": false,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "2bcf93d8c8ebd9838a2515d3b44858497bd7e14065907a73d2c5f98fc8d1fdea",
+      "checksum": "4175e551541a5ae152d76201a69fb1e14d02cc1f801b6d5f11e39bbb06183bba",
       "size": 1672
     },
     {
@@ -224,7 +224,7 @@
       "hasAudio": false,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "0007fc97a74f0c1628e5d0c6ce7d85d30351bac0c07613fe2927b193598835e6",
+      "checksum": "2f2d9eb7bb8b660c9c40eada01d9022400f18641c432dd11c844cd0247c749b0",
       "size": 2092
     },
     {
@@ -249,7 +249,7 @@
       "hasAudio": false,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "80b8decf59121d9991d3584760411e52ef7f7a73fd83fac7835913e6cc7156a1",
+      "checksum": "2b5e1f701321fa0409510b0ecdceee4785bcdb6898d834fe2da6254b53b83875",
       "size": 1585
     },
     {
@@ -274,7 +274,7 @@
       "hasAudio": false,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "a8ecce7eb61e5cbb7e048d449b41a90b47e44aa81233cde1ba3f45adb779fe63",
+      "checksum": "5fc20c9010726a2b0d4e1526bfbad24133d6cfc0af5d9ea73b9f0a982e590046",
       "size": 1734
     },
     {
@@ -299,7 +299,7 @@
       "hasAudio": false,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "cae104cb022983628cc110d1a19f796be3a7fdcb551a02b275c4f6e5ea4e2e55",
+      "checksum": "75ac9ad2b72146d21fedd4eae82ff83798b417b21a551d70b3bd5d3e4c1b8aa8",
       "size": 1524
     },
     {
@@ -324,7 +324,7 @@
       "hasAudio": false,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "08ed187b8cbdfc53948b2db7ec69e31aad5375078209f22fc3bd80f209c813e8",
+      "checksum": "43673c72ac65c949ee9ce4b9f0dcac434b4f1a66b9919070a5d89c593ad91515",
       "size": 1698
     },
     {
@@ -349,7 +349,7 @@
       "hasAudio": false,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "41ffae48e39a86b91b257c9b49845899546cf66a81d1495ab316ae0ae646ba64",
+      "checksum": "f0f0c90b0e76d402caee1e301749b85a9a5f9c5bda8732f5a7da4fed86b10da8",
       "size": 1762
     },
     {
@@ -374,7 +374,7 @@
       "hasAudio": false,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "9403850cc9306d860f1bf54a52c6d32a839459fda1c21f8b3ab3a334cff160c0",
+      "checksum": "caaf5d90086a4d48b2e2113c237b291f89f08e5b8b1cb42fa0c957459f130564",
       "size": 1413
     },
     {
@@ -399,7 +399,7 @@
       "hasAudio": false,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "6ef8a5ea94bf02c9449cb06a583ba4fc33cd921966f81a78ef275151f82aa54b",
+      "checksum": "afaecfd1847be373861f357d8a718e69a0eac19220f4a91ac1186aa8639ea6ff",
       "size": 1642
     },
     {
@@ -424,14 +424,139 @@
       "hasAudio": false,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "ad2ae1b8ccef717408c3d247ab620bcdd61b24140e2caf43297cb7cf196bb0bc",
+      "checksum": "43daebea99f4c0d677eb3c203bebb1bcb1d344d8d2f69f29f8dda8be74c8b7a7",
       "size": 1639
+    },
+    {
+      "id": "shiv_chalisa",
+      "name": {
+        "en": "Shiv Chalisa",
+        "hi": "शिव चालीसा",
+        "gu": "શિવ ચાલીસા"
+      },
+      "description": {
+        "en": "40 Verses in Praise of Lord Shiva",
+        "hi": "शिव जी की 40 चौपाई",
+        "gu": "શિવજીની 40 ચોપાઈ"
+      },
+      "path": "texts/shiv_chalisa/index.json",
+      "bundle": "texts/shiv_chalisa.zip",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "hasAudio": false,
+      "hasMeanings": false,
+      "hasImage": false,
+      "checksum": "f0a5e36fda7494ba28e1f919880e7fe1e0b12f2a9af880a9949a226625c23698",
+      "size": 6272
+    },
+    {
+      "id": "shiv_aarti",
+      "name": {
+        "en": "Om Jai Shiv Omkara",
+        "hi": "ॐ जय शिव ओमकारा",
+        "gu": "ૐ જય શિવ ઓમકારા"
+      },
+      "description": {
+        "en": "Shiv Aarti - Most Popular",
+        "hi": "शिव आरती - सबसे लोकप्रिय",
+        "gu": "શિવ આરતી - સૌથી લોકપ્રિય"
+      },
+      "path": "texts/shiv_aarti/index.json",
+      "bundle": "texts/shiv_aarti.zip",
+      "languages": [
+        "hi",
+        "gu",
+        "en"
+      ],
+      "hasAudio": false,
+      "hasMeanings": false,
+      "hasImage": false,
+      "checksum": "5186cc6302132b4a4954b282072b9a21b89977c8dc6761d91056894fc69464d4",
+      "size": 2601
+    },
+    {
+      "id": "sukhkarta_dukhharta",
+      "name": {
+        "en": "Sukhkarta Dukhharta",
+        "hi": "सुखकर्ता दुखहर्ता",
+        "gu": "સુખકર્તા દુઃખહર્તા"
+      },
+      "description": {
+        "en": "Ganesh Aarti - Marathi",
+        "hi": "गणेश आरती - मराठी",
+        "gu": "ગણેશ આરતી - મરાઠી"
+      },
+      "path": "texts/sukhkarta_dukhharta/index.json",
+      "bundle": "texts/sukhkarta_dukhharta.zip",
+      "languages": [
+        "en",
+        "gu",
+        "hi"
+      ],
+      "hasAudio": false,
+      "hasMeanings": false,
+      "hasImage": false,
+      "checksum": "1f5e8b13adab8c19c5f555121122d7b980444f24b81e89ffada1c44608ea0e96",
+      "size": 2283
+    },
+    {
+      "id": "jai_ambe_gauri",
+      "name": {
+        "en": "Jai Ambe Gauri",
+        "hi": "जय अम्बे गौरी",
+        "gu": "જય અંબે ગૌરી"
+      },
+      "description": {
+        "en": "Durga Aarti - Navratri Special",
+        "hi": "दुर्गा आरती - नवरात्रि विशेष",
+        "gu": "દુર્ગા આરતી - નવરાત્રી વિશેષ"
+      },
+      "path": "texts/jai_ambe_gauri/index.json",
+      "bundle": "texts/jai_ambe_gauri.zip",
+      "languages": [
+        "gu",
+        "hi",
+        "en"
+      ],
+      "hasAudio": false,
+      "hasMeanings": false,
+      "hasImage": false,
+      "checksum": "f0d23cde8c5c0ca66013aceac40befe8bbd30789f3530e6555c6d73a5f88b7cc",
+      "size": 3353
+    },
+    {
+      "id": "om_jai_jagdish_hare",
+      "name": {
+        "en": "Om Jai Jagdish Hare",
+        "hi": "ॐ जय जगदीश हरे",
+        "gu": "ૐ જય જગદીશ હરે"
+      },
+      "description": {
+        "en": "Universal Aarti - Most Popular",
+        "hi": "सार्वभौमिक आरती - सबसे लोकप्रिय",
+        "gu": "સાર્વભૌમિક આરતી - સૌથી લોકપ્રિય"
+      },
+      "path": "texts/om_jai_jagdish_hare/index.json",
+      "bundle": "texts/om_jai_jagdish_hare.zip",
+      "languages": [
+        "en",
+        "gu",
+        "hi"
+      ],
+      "hasAudio": false,
+      "hasMeanings": false,
+      "hasImage": false,
+      "checksum": "6ddf64da34b75f9595bf2ee687dff4ffb1188cbe7bbe11638e0fcbe97cabb435",
+      "size": 2748
     }
   ],
   "_meta": {
-    "generatedAt": "2026-06-06T10:29:45.606392Z",
+    "generatedAt": "2026-06-08T03:19:17.875960Z",
     "generator": "build.py",
-    "itemCount": 16
+    "itemCount": 21
   },
   "categories": [
     {
@@ -457,7 +582,9 @@
       },
       "image": "categories/shiva.jpg",
       "items": [
-        "shiv_tandav"
+        "shiv_tandav",
+        "shiv_chalisa",
+        "shiv_aarti"
       ]
     },
     {
@@ -470,7 +597,8 @@
       "image": "categories/ganesh.jpg",
       "items": [
         "ganesh_aarti",
-        "vakratunda_mahakaya"
+        "vakratunda_mahakaya",
+        "sukhkarta_dukhharta"
       ]
     },
     {
@@ -484,7 +612,8 @@
       "items": [
         "jay_adhya_shakti",
         "saraswati_vandana",
-        "saraswati_namastubhyam"
+        "saraswati_namastubhyam",
+        "jai_ambe_gauri"
       ]
     },
     {
@@ -506,7 +635,8 @@
         "vakratunda_mahakaya",
         "ganesh_aarti",
         "saraswati_vandana",
-        "saraswati_namastubhyam"
+        "saraswati_namastubhyam",
+        "om_jai_jagdish_hare"
       ]
     }
   ]

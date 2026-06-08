@@ -13,7 +13,7 @@
     "supportEmail": "utsavhacker@gmail.com"
   },
   "data": {
-    "version": 7,
+    "version": 8,
     "minAppVersion": "1.0"
   },
   "config": {
@@ -35,7 +35,11 @@
         "gu": "હનુમાન"
       },
       "image": "hanuman.jpg",
-      "items": ["hauman_chalisa", "bajrang_baan", "sankat_mochan"]
+      "items": [
+        "hauman_chalisa",
+        "bajrang_baan",
+        "sankat_mochan"
+      ]
     },
     {
       "id": "shiva",
@@ -45,7 +49,11 @@
         "gu": "શિવ"
       },
       "image": "shiva.jpg",
-      "items": ["shiv_tandav"]
+      "items": [
+        "shiv_tandav",
+        "shiv_chalisa",
+        "shiv_aarti"
+      ]
     },
     {
       "id": "ganesh",
@@ -55,7 +63,11 @@
         "gu": "ગણેશ"
       },
       "image": "ganesh.jpg",
-      "items": ["ganesh_aarti", "vakratunda_mahakaya"]
+      "items": [
+        "ganesh_aarti",
+        "vakratunda_mahakaya",
+        "sukhkarta_dukhharta"
+      ]
     },
     {
       "id": "devi",
@@ -65,7 +77,12 @@
         "gu": "દેવી"
       },
       "image": "devi.jpg",
-      "items": ["jay_adhya_shakti", "saraswati_vandana", "saraswati_namastubhyam"]
+      "items": [
+        "jay_adhya_shakti",
+        "saraswati_vandana",
+        "saraswati_namastubhyam",
+        "jai_ambe_gauri"
+      ]
     },
     {
       "id": "daily_prayers",
@@ -86,7 +103,8 @@
         "vakratunda_mahakaya",
         "ganesh_aarti",
         "saraswati_vandana",
-        "saraswati_namastubhyam"
+        "saraswati_namastubhyam",
+        "om_jai_jagdish_hare"
       ]
     }
   ],
@@ -297,6 +315,71 @@
         "en": "Evening Prayer - Deep Shloka",
         "hi": "संध्या प्रार्थना - दीप श्लोक",
         "gu": "સંધ્યા પ્રાર્થના - દીપ શ્લોક"
+      }
+    },
+    {
+      "id": "shiv_chalisa",
+      "name": {
+        "en": "Shiv Chalisa",
+        "hi": "शिव चालीसा",
+        "gu": "શિવ ચાલીસા"
+      },
+      "description": {
+        "en": "40 Verses in Praise of Lord Shiva",
+        "hi": "शिव जी की 40 चौपाई",
+        "gu": "શિવજીની 40 ચોપાઈ"
+      }
+    },
+    {
+      "id": "shiv_aarti",
+      "name": {
+        "en": "Om Jai Shiv Omkara",
+        "hi": "ॐ जय शिव ओमकारा",
+        "gu": "ૐ જય શિવ ઓમકારા"
+      },
+      "description": {
+        "en": "Shiv Aarti - Most Popular",
+        "hi": "शिव आरती - सबसे लोकप्रिय",
+        "gu": "શિવ આરતી - સૌથી લોકપ્રિય"
+      }
+    },
+    {
+      "id": "sukhkarta_dukhharta",
+      "name": {
+        "en": "Sukhkarta Dukhharta",
+        "hi": "सुखकर्ता दुखहर्ता",
+        "gu": "સુખકર્તા દુઃખહર્તા"
+      },
+      "description": {
+        "en": "Ganesh Aarti - Marathi",
+        "hi": "गणेश आरती - मराठी",
+        "gu": "ગણેશ આરતી - મરાઠી"
+      }
+    },
+    {
+      "id": "jai_ambe_gauri",
+      "name": {
+        "en": "Jai Ambe Gauri",
+        "hi": "जय अम्बे गौरी",
+        "gu": "જય અંબે ગૌરી"
+      },
+      "description": {
+        "en": "Durga Aarti - Navratri Special",
+        "hi": "दुर्गा आरती - नवरात्रि विशेष",
+        "gu": "દુર્ગા આરતી - નવરાત્રી વિશેષ"
+      }
+    },
+    {
+      "id": "om_jai_jagdish_hare",
+      "name": {
+        "en": "Om Jai Jagdish Hare",
+        "hi": "ॐ जय जगदीश हरे",
+        "gu": "ૐ જય જગદીશ હરે"
+      },
+      "description": {
+        "en": "Universal Aarti - Most Popular",
+        "hi": "सार्वभौमिक आरती - सबसे लोकप्रिय",
+        "gu": "સાર્વભૌમિક આરતી - સૌથી લોકપ્રિય"
       }
     }
   ]
