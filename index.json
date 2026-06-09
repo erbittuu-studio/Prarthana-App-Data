@@ -1,30 +1,17 @@
 {
   "app": {
-    "name": {
-      "en": "Prarthana",
-      "hi": "प्रार्थना",
-      "gu": "પ્રાર્થના"
-    },
-    "tagline": {
-      "en": "Sacred Texts & Prayers",
-      "hi": "पवित्र ग्रंथ और प्रार्थनाएँ",
-      "gu": "પવિત્ર ગ્રંથો અને પ્રાર્થનાઓ"
-    },
+    "name": "Prarthana",
+    "tagline": "Sacred Texts & Prayers",
     "supportEmail": "utsavhacker@gmail.com"
   },
   "data": {
-    "version": 10,
+    "version": 11,
     "minAppVersion": "1.0"
   },
   "config": {
     "forceUpdate": false,
     "maintenanceMode": false,
     "showAds": false
-  },
-  "languages": {
-    "en": true,
-    "hi": true,
-    "gu": true
   },
   "todaysPrayer": {
     "mode": "rotating",
@@ -42,103 +29,39 @@
   "deities": [
     {
       "id": "hanuman",
-      "name": {
-        "en": "Hanuman",
-        "hi": "हनुमान",
-        "gu": "હનુમાન"
-      },
-      "devotionTitle": {
-        "en": "Hanuman Bhakt",
-        "hi": "हनुमान भक्त",
-        "gu": "હનુમાન ભક્ત"
-      },
-      "encouragement": {
-        "en": "Keep going! Stay blessed.",
-        "hi": "जय बजरंगबली! आशीर्वाद बना रहे।",
-        "gu": "જય બજરંગબલી! આશીર્વાદ રહે."
-      }
+      "name": "Hanuman",
+      "devotionTitle": "Hanuman Bhakt",
+      "encouragement": "Jai Bajrangbali! Stay blessed."
     },
     {
       "id": "shiva",
-      "name": {
-        "en": "Shiva",
-        "hi": "शिव",
-        "gu": "શિવ"
-      },
-      "devotionTitle": {
-        "en": "Shiv Bhakt",
-        "hi": "शिव भक्त",
-        "gu": "શિવ ભક્ત"
-      },
-      "encouragement": {
-        "en": "Har Har Mahadev! Stay blessed.",
-        "hi": "हर हर महादेव! आशीर्वाद बना रहे।",
-        "gu": "હર હર મહાદેવ! આશીર્વાદ રહે."
-      }
+      "name": "Shiva",
+      "devotionTitle": "Shiv Bhakt",
+      "encouragement": "Har Har Mahadev! Stay blessed."
     },
     {
       "id": "ganesh",
-      "name": {
-        "en": "Ganesh",
-        "hi": "गणेश",
-        "gu": "ગણેશ"
-      },
-      "devotionTitle": {
-        "en": "Ganesh Bhakt",
-        "hi": "गणेश भक्त",
-        "gu": "ગણેશ ભક્ત"
-      },
-      "encouragement": {
-        "en": "Ganpati Bappa Morya!",
-        "hi": "गणपति बप्पा मोरया!",
-        "gu": "ગણપતિ બાપ્પા મોરિયા!"
-      }
+      "name": "Ganesh",
+      "devotionTitle": "Ganesh Bhakt",
+      "encouragement": "Ganpati Bappa Morya!"
     },
     {
       "id": "devi",
-      "name": {
-        "en": "Devi",
-        "hi": "देवी",
-        "gu": "દેવી"
-      },
-      "devotionTitle": {
-        "en": "Devi Bhakt",
-        "hi": "देवी भक्त",
-        "gu": "દેવી ભક્ત"
-      },
-      "encouragement": {
-        "en": "Jai Mata Di! Blessings upon you.",
-        "hi": "जय माता दी! आशीर्वाद बना रहे।",
-        "gu": "જય માતા દી! આશીર્વાદ રહે."
-      }
+      "name": "Devi",
+      "devotionTitle": "Devi Bhakt",
+      "encouragement": "Jai Mata Di! Blessings upon you."
     },
     {
       "id": "daily_prayers",
-      "name": {
-        "en": "Daily Practice",
-        "hi": "दैनिक साधना",
-        "gu": "દૈનિક સાધના"
-      },
-      "devotionTitle": {
-        "en": "Daily Practitioner",
-        "hi": "नियमित साधक",
-        "gu": "નિયમિત સાધક"
-      },
-      "encouragement": {
-        "en": "Consistency is key to spiritual growth.",
-        "hi": "नियमितता आध्यात्मिक विकास की कुंजी है।",
-        "gu": "નિયમિતતા આધ્યાત્મિક વિકાસની ચાવી છે."
-      }
+      "name": "Daily Practice",
+      "devotionTitle": "Daily Practitioner",
+      "encouragement": "Consistency is key to spiritual growth."
     }
   ],
   "categories": [
     {
       "id": "hanuman",
-      "name": {
-        "en": "Hanuman",
-        "hi": "हनुमान",
-        "gu": "હનુમાન"
-      },
+      "name": "Hanuman",
       "image": "hanuman.jpg",
       "items": [
         "hauman_chalisa",
@@ -148,11 +71,7 @@
     },
     {
       "id": "shiva",
-      "name": {
-        "en": "Shiva",
-        "hi": "शिव",
-        "gu": "શિવ"
-      },
+      "name": "Shiva",
       "image": "shiva.jpg",
       "items": [
         "shiv_tandav",
@@ -162,11 +81,7 @@
     },
     {
       "id": "ganesh",
-      "name": {
-        "en": "Ganesh",
-        "hi": "गणेश",
-        "gu": "ગણેશ"
-      },
+      "name": "Ganesh",
       "image": "ganesh.jpg",
       "items": [
         "ganesh_aarti",
@@ -176,11 +91,7 @@
     },
     {
       "id": "devi",
-      "name": {
-        "en": "Devi",
-        "hi": "देवी",
-        "gu": "દેવી"
-      },
+      "name": "Devi",
       "image": "devi.jpg",
       "items": [
         "jay_adhya_shakti",
@@ -191,11 +102,7 @@
     },
     {
       "id": "daily_prayers",
-      "name": {
-        "en": "Daily Prayers",
-        "hi": "दैनिक प्रार्थना",
-        "gu": "દૈનિક પ્રાર્થના"
-      },
+      "name": "Daily Prayers",
       "image": "daily_prayers.jpg",
       "items": [
         "gayatri_mantra",
@@ -216,16 +123,8 @@
   "items": [
     {
       "id": "hauman_chalisa",
-      "name": {
-        "en": "Hanuman Chalisa",
-        "hi": "हनुमान चालीसा",
-        "gu": "હનુમાન ચાલીસા"
-      },
-      "description": {
-        "en": "40 Chaupai by Tulsidas",
-        "hi": "40 चौपाई - तुलसीदास",
-        "gu": "40 ચોપાઈ - તુલસીદાસ"
-      },
+      "name": "Hanuman Chalisa",
+      "description": "40 Chaupai by Tulsidas",
       "readingTimeMinutes": 8,
       "tags": [
         "morning",
@@ -235,16 +134,8 @@
     },
     {
       "id": "bajrang_baan",
-      "name": {
-        "en": "Bajrang Baan",
-        "hi": "बजरंग बाण",
-        "gu": "બજરંગ બાણ"
-      },
-      "description": {
-        "en": "Powerful Protection Prayer",
-        "hi": "शक्तिशाली सुरक्षा प्रार्थना",
-        "gu": "શક્તિશાળી સુરક્ષા પ્રાર્થના"
-      },
+      "name": "Bajrang Baan",
+      "description": "Powerful Protection Prayer",
       "readingTimeMinutes": 7,
       "tags": [
         "protection",
@@ -253,16 +144,8 @@
     },
     {
       "id": "sankat_mochan",
-      "name": {
-        "en": "Sankat Mochan Hanumanashtak",
-        "hi": "संकटमोचन हनुमानाष्टक",
-        "gu": "સંકટમોચન હનુમાનાષ્ટક"
-      },
-      "description": {
-        "en": "8 Verses - Remover of Difficulties",
-        "hi": "8 छंद - कष्ट निवारक",
-        "gu": "8 છંદ - કષ્ટ નિવારક"
-      },
+      "name": "Sankat Mochan Hanumanashtak",
+      "description": "8 Verses - Remover of Difficulties",
       "readingTimeMinutes": 6,
       "tags": [
         "protection",
@@ -271,16 +154,8 @@
     },
     {
       "id": "jay_adhya_shakti",
-      "name": {
-        "en": "Jay Adhya Shakti",
-        "hi": "जय आद्या शक्ति",
-        "gu": "જય આદ્યા શક્તિ"
-      },
-      "description": {
-        "en": "Ambaji Maa Aarti",
-        "hi": "माँ अम्बाजी की आरती",
-        "gu": "માઁ અંબાજી આરતી"
-      },
+      "name": "Jay Adhya Shakti",
+      "description": "Ambaji Maa Aarti",
       "readingTimeMinutes": 5,
       "tags": [
         "evening",
@@ -290,16 +165,8 @@
     },
     {
       "id": "ganesh_aarti",
-      "name": {
-        "en": "Ganesh Aarti",
-        "hi": "गणेश आरती",
-        "gu": "ગણેશ આરતી"
-      },
-      "description": {
-        "en": "Jai Ganesh Jai Ganesh Deva",
-        "hi": "जय गणेश जय गणेश देवा",
-        "gu": "જય ગણેશ જય ગણેશ દેવા"
-      },
+      "name": "Ganesh Aarti",
+      "description": "Jai Ganesh Jai Ganesh Deva",
       "readingTimeMinutes": 4,
       "tags": [
         "morning",
@@ -309,16 +176,8 @@
     },
     {
       "id": "shiv_tandav",
-      "name": {
-        "en": "Shiv Tandav Stotram",
-        "hi": "शिव तांडव स्तोत्रम्",
-        "gu": "શિવ તાંડવ સ્તોત્રમ્"
-      },
-      "description": {
-        "en": "By Ravana - 16 Shlokas",
-        "hi": "रावण रचित - 16 श्लोक",
-        "gu": "રાવણ રચિત - 16 શ્લોક"
-      },
+      "name": "Shiv Tandav Stotram",
+      "description": "By Ravana - 16 Shlokas",
       "readingTimeMinutes": 6,
       "tags": [
         "powerful",
@@ -327,16 +186,8 @@
     },
     {
       "id": "gayatri_mantra",
-      "name": {
-        "en": "Gayatri Mantra",
-        "hi": "गायत्री मंत्र",
-        "gu": "ગાયત્રી મંત્ર"
-      },
-      "description": {
-        "en": "Most Powerful Vedic Mantra",
-        "hi": "सबसे शक्तिशाली वैदिक मंत्र",
-        "gu": "સૌથી શક્તિશાળી વૈદિક મંત્ર"
-      },
+      "name": "Gayatri Mantra",
+      "description": "Most Powerful Vedic Mantra",
       "readingTimeMinutes": 2,
       "tags": [
         "morning",
@@ -347,16 +198,8 @@
     },
     {
       "id": "saraswati_vandana",
-      "name": {
-        "en": "Saraswati Vandana",
-        "hi": "सरस्वती वंदना",
-        "gu": "સરસ્વતી વંદના"
-      },
-      "description": {
-        "en": "Prayer to Goddess of Knowledge",
-        "hi": "ज्ञान की देवी की प्रार्थना",
-        "gu": "જ્ઞાનની દેવીની પ્રાર્થના"
-      },
+      "name": "Saraswati Vandana",
+      "description": "Prayer to Goddess of Knowledge",
       "readingTimeMinutes": 3,
       "tags": [
         "morning",
@@ -366,16 +209,8 @@
     },
     {
       "id": "guru_brahma",
-      "name": {
-        "en": "Guru Brahma Guru Vishnu",
-        "hi": "गुरु ब्रह्मा गुरु विष्णु",
-        "gu": "ગુરુ બ્રહ્મા ગુરુ વિષ્ણુ"
-      },
-      "description": {
-        "en": "Guru Mantra - Salutation to Teacher",
-        "hi": "गुरु मंत्र - गुरु वंदना",
-        "gu": "ગુરુ મંત્ર - ગુરુ વંદના"
-      },
+      "name": "Guru Brahma Guru Vishnu",
+      "description": "Guru Mantra - Salutation to Teacher",
       "readingTimeMinutes": 2,
       "tags": [
         "morning",
@@ -385,16 +220,8 @@
     },
     {
       "id": "om_sahana_vavatu",
-      "name": {
-        "en": "Om Sahana Vavatu",
-        "hi": "ॐ सह नाववतु",
-        "gu": "ૐ સહ નાવવતુ"
-      },
-      "description": {
-        "en": "Shanti Mantra - Peace Invocation",
-        "hi": "शांति मंत्र",
-        "gu": "શાંતિ મંત્ર"
-      },
+      "name": "Om Sahana Vavatu",
+      "description": "Shanti Mantra - Peace Invocation",
       "readingTimeMinutes": 2,
       "tags": [
         "morning",
@@ -404,16 +231,8 @@
     },
     {
       "id": "twameva_mata",
-      "name": {
-        "en": "Twameva Mata Cha Pita Twameva",
-        "hi": "त्वमेव माता च पिता त्वमेव",
-        "gu": "ત્વમેવ માતા ચ પિતા ત્વમેવ"
-      },
-      "description": {
-        "en": "Universal Prayer of Surrender",
-        "hi": "समर्पण की प्रार्थना",
-        "gu": "સમર્પણની પ્રાર્થના"
-      },
+      "name": "Twameva Mata Cha Pita Twameva",
+      "description": "Universal Prayer of Surrender",
       "readingTimeMinutes": 2,
       "tags": [
         "daily",
@@ -422,16 +241,8 @@
     },
     {
       "id": "vakratunda_mahakaya",
-      "name": {
-        "en": "Vakratunda Mahakaya",
-        "hi": "वक्रतुण्ड महाकाय",
-        "gu": "વક્રતુંડ મહાકાય"
-      },
-      "description": {
-        "en": "Ganesh Shloka - Remover of Obstacles",
-        "hi": "गणेश श्लोक - विघ्नहर्ता",
-        "gu": "ગણેશ શ્લોક - વિઘ્નહર્તા"
-      },
+      "name": "Vakratunda Mahakaya",
+      "description": "Ganesh Shloka - Remover of Obstacles",
       "readingTimeMinutes": 1,
       "tags": [
         "morning",
@@ -441,16 +252,8 @@
     },
     {
       "id": "saraswati_namastubhyam",
-      "name": {
-        "en": "Saraswati Namastubhyam",
-        "hi": "सरस्वती नमस्तुभ्यम्",
-        "gu": "સરસ્વતી નમસ્તુભ્યમ્"
-      },
-      "description": {
-        "en": "Saraswati Shloka for Studies",
-        "hi": "विद्या के लिए सरस्वती श्लोक",
-        "gu": "વિદ્યા માટે સરસ્વતી શ્લોક"
-      },
+      "name": "Saraswati Namastubhyam",
+      "description": "Saraswati Shloka for Studies",
       "readingTimeMinutes": 2,
       "tags": [
         "morning",
@@ -460,16 +263,8 @@
     },
     {
       "id": "asato_ma",
-      "name": {
-        "en": "Asato Ma Sadgamaya",
-        "hi": "असतो मा सद्गमय",
-        "gu": "અસતો મા સદ્ગમય"
-      },
-      "description": {
-        "en": "Lead Me from Darkness to Light",
-        "hi": "अंधकार से प्रकाश की ओर",
-        "gu": "અંધકારથી પ્રકાશ તરફ"
-      },
+      "name": "Asato Ma Sadgamaya",
+      "description": "Lead Me from Darkness to Light",
       "readingTimeMinutes": 2,
       "tags": [
         "daily",
@@ -478,16 +273,8 @@
     },
     {
       "id": "karagre_vasate",
-      "name": {
-        "en": "Karagre Vasate Lakshmi",
-        "hi": "कराग्रे वसते लक्ष्मी",
-        "gu": "કરાગ્રે વસતે લક્ષ્મી"
-      },
-      "description": {
-        "en": "Morning Prayer - Kar Darshan",
-        "hi": "प्रातः प्रार्थना - कर दर्शन",
-        "gu": "પ્રાતઃ પ્રાર્થના - કર દર્શન"
-      },
+      "name": "Karagre Vasate Lakshmi",
+      "description": "Morning Prayer - Kar Darshan",
       "readingTimeMinutes": 1,
       "tags": [
         "morning",
@@ -497,16 +284,8 @@
     },
     {
       "id": "shubham_karoti",
-      "name": {
-        "en": "Shubham Karoti Kalyanam",
-        "hi": "शुभं करोति कल्याणम्",
-        "gu": "શુભં કરોતિ કલ્યાણમ્"
-      },
-      "description": {
-        "en": "Evening Prayer - Deep Shloka",
-        "hi": "संध्या प्रार्थना - दीप श्लोक",
-        "gu": "સંધ્યા પ્રાર્થના - દીપ શ્લોક"
-      },
+      "name": "Shubham Karoti Kalyanam",
+      "description": "Evening Prayer - Deep Shloka",
       "readingTimeMinutes": 2,
       "tags": [
         "evening",
@@ -516,16 +295,8 @@
     },
     {
       "id": "shiv_chalisa",
-      "name": {
-        "en": "Shiv Chalisa",
-        "hi": "शिव चालीसा",
-        "gu": "શિવ ચાલીસા"
-      },
-      "description": {
-        "en": "40 Verses in Praise of Lord Shiva",
-        "hi": "शिव जी की 40 चौपाई",
-        "gu": "શિવજીની 40 ચોપાઈ"
-      },
+      "name": "Shiv Chalisa",
+      "description": "40 Verses in Praise of Lord Shiva",
       "readingTimeMinutes": 7,
       "tags": [
         "devotion"
@@ -533,16 +304,8 @@
     },
     {
       "id": "shiv_aarti",
-      "name": {
-        "en": "Om Jai Shiv Omkara",
-        "hi": "ॐ जय शिव ओमकारा",
-        "gu": "ૐ જય શિવ ઓમકારા"
-      },
-      "description": {
-        "en": "Shiv Aarti - Most Popular",
-        "hi": "शिव आरती - सबसे लोकप्रिय",
-        "gu": "શિવ આરતી - સૌથી લોકપ્રિય"
-      },
+      "name": "Om Jai Shiv Omkara",
+      "description": "Shiv Aarti - Most Popular",
       "readingTimeMinutes": 5,
       "tags": [
         "evening",
@@ -552,16 +315,8 @@
     },
     {
       "id": "sukhkarta_dukhharta",
-      "name": {
-        "en": "Sukhkarta Dukhharta",
-        "hi": "सुखकर्ता दुखहर्ता",
-        "gu": "સુખકર્તા દુઃખહર્તા"
-      },
-      "description": {
-        "en": "Ganesh Aarti - Marathi",
-        "hi": "गणेश आरती - मराठी",
-        "gu": "ગણેશ આરતી - મરાઠી"
-      },
+      "name": "Sukhkarta Dukhharta",
+      "description": "Ganesh Aarti - Marathi",
       "readingTimeMinutes": 4,
       "tags": [
         "evening",
@@ -570,16 +325,8 @@
     },
     {
       "id": "jai_ambe_gauri",
-      "name": {
-        "en": "Jai Ambe Gauri",
-        "hi": "जय अम्बे गौरी",
-        "gu": "જય અંબે ગૌરી"
-      },
-      "description": {
-        "en": "Durga Aarti - Navratri Special",
-        "hi": "दुर्गा आरती - नवरात्रि विशेष",
-        "gu": "દુર્ગા આરતી - નવરાત્રી વિશેષ"
-      },
+      "name": "Jai Ambe Gauri",
+      "description": "Durga Aarti - Navratri Special",
       "readingTimeMinutes": 5,
       "tags": [
         "evening",
@@ -589,16 +336,8 @@
     },
     {
       "id": "om_jai_jagdish_hare",
-      "name": {
-        "en": "Om Jai Jagdish Hare",
-        "hi": "ॐ जय जगदीश हरे",
-        "gu": "ૐ જય જગદીશ હરે"
-      },
-      "description": {
-        "en": "Universal Aarti - Most Popular",
-        "hi": "सार्वभौमिक आरती - सबसे लोकप्रिय",
-        "gu": "સાર્વભૌમિક આરતી - સૌથી લોકપ્રિય"
-      },
+      "name": "Om Jai Jagdish Hare",
+      "description": "Universal Aarti - Most Popular",
       "readingTimeMinutes": 6,
       "tags": [
         "evening",
