@@ -5,7 +5,7 @@
     "supportEmail": "utsavhacker@gmail.com"
   },
   "data": {
-    "version": 19,
+    "version": 20,
     "minAppVersion": "1.0"
   },
   "config": {
@@ -28,7 +28,7 @@
       "hasAudio": true,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "0c667a7376eb28b7ca186b7b485991c7fd21fc86291cfa6facd8358c22eb3d95",
+      "checksum": "2081471e42033a68780f0e50b155d757df5e02ea98f041c6e0c8c657f28b5b24",
       "size": 4549029,
       "readingTimeMinutes": 8,
       "tags": [
@@ -56,7 +56,7 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "9a9a6dee7321dce63806406a73c6a0c6f8b6d53a6f22b0f1c40f3ab884cf949d",
+      "checksum": "19a0516959fc247499af651fa9854a693596f0e7bc8cfecf5b552e5f00b09b55",
       "size": 11101188,
       "readingTimeMinutes": 7,
       "tags": [
@@ -82,7 +82,7 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "8c1c6faa99704d51a77c351cbfbfd0280625fb2a1c58cd0dbf41a94024cfcf15",
+      "checksum": "5140612c27b29484ddc19d3ffd8ccf55ba9a6c13860320b24daed09d75d0854c",
       "size": 8812198,
       "readingTimeMinutes": 6,
       "tags": [
@@ -108,7 +108,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "82068d8426243808f98e53d6e7e7c1e0e5688f02c00eb6ce70d76f94a86e00e4",
+      "checksum": "d37f0eec26952351a26a397c0f20465f45da30660a02d66c77de3ddb0bebc48f",
       "size": 2434,
       "readingTimeMinutes": 4,
       "tags": [
@@ -132,7 +132,7 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "5fa78b50215be54e0108fe7ec521db3b8033f828a6ac94806bda5e3d9e6cee6d",
+      "checksum": "c2c79d633118b4394151a671a6493a60fdfe12d401851c2b1d54d3c019e6b979",
       "size": 19432118,
       "readingTimeMinutes": 5,
       "tags": [
@@ -157,7 +157,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "68f2094b7fba45bc4d57e76e8133d2363919118b2ceebba354a3ace032873b59",
+      "checksum": "af04632e5bbd284a12ec7105e94bc43bef6317651dcf535cf3b518e3da30e7f1",
       "size": 3353,
       "readingTimeMinutes": 5,
       "tags": [
@@ -181,7 +181,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "abd5fe3b2717b2132a6cd0f6d5789ab685803c4771c4f1791c06db7945860c56",
+      "checksum": "2636a44c08dd18937513befeb546a16d09842759a7ec2fdbdb926f6074dae42b",
       "size": 6322,
       "readingTimeMinutes": 8,
       "tags": [
@@ -207,7 +207,7 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "9efe744508bd8b690cc84ced828101db9f9030c71c3046c129b6b67ca2b51827",
+      "checksum": "7054821005cadd628ef3ac208dfe7250626f808285864a475bcabfb24dd7e3a2",
       "size": 6486464,
       "readingTimeMinutes": 4,
       "tags": [
@@ -232,7 +232,7 @@
       "hasAudio": false,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "08a0a3c57b848c636189fd643447526989ccafb9ab659eeb919d4ff139c94dd8",
+      "checksum": "4f6c76587862413c5758d3ca34ad5cb1bb74a4512f40224c50dbdb9e3c500368",
       "size": 1698,
       "readingTimeMinutes": 1,
       "tags": [
@@ -256,7 +256,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "909627b7595de55233d8b76ef90d2132bb2514dfafee7b3c249f4baa47eb066e",
+      "checksum": "a8005b06b7e0c9cc45be6ab4c5fd4921b3a2dc46a2c90db02368942f84b4f05a",
       "size": 2283,
       "readingTimeMinutes": 4,
       "tags": [
@@ -279,7 +279,7 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "e83c50524cac8ebf58e391f889863b53e27a7d006ea74c789eee7de191f2490f",
+      "checksum": "c44b1ee5c78cb923e0152c9bc8bb16976f36d3a38e4a13ce281985733076dea1",
       "size": 9269482,
       "readingTimeMinutes": 6,
       "tags": [
@@ -304,7 +304,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "58ba88ef38c4cd777928c3b84d207c9f7feb4bbb266549ee653fdb85aeae648e",
+      "checksum": "4b4175e9200fae2e8895fd22da29bad488ea46e3b2614cf3842282e732c2cc80",
       "size": 6272,
       "readingTimeMinutes": 7,
       "tags": [
@@ -328,7 +328,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "875fab9b80601c6ae1498b63e1c42c4e585fbf5e400c3ec72bd44705a49acfce",
+      "checksum": "4cefc6222da1823a2e62c262c66703957e73e33bf898d18bfcaa579a466cbacb",
       "size": 2601,
       "readingTimeMinutes": 5,
       "tags": [
@@ -352,7 +352,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "023e73b34078af62a53dc09fa557f6e3be1fc5bf39f86792ff56f8bc0a10e629",
+      "checksum": "d18eda7d4e4717c0380cbeae44d4962796126f0dc5653158badd4ffcb0e5db04",
       "size": 2088,
       "readingTimeMinutes": 5,
       "tags": [
@@ -377,7 +377,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "07880942119a32e3606cefa6e38fd5a5d09eaa8feba5c5e55ffd1721d6cee159",
+      "checksum": "43886266bdc77f7e7d3dc65dadf38e0924e47e960f9df37b9d0d91e611bd81fa",
       "size": 2485,
       "readingTimeMinutes": 5,
       "tags": [
@@ -402,7 +402,7 @@
       "hasAudio": false,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "8103d713155ee2593291ee8b4c74eb81756acce64e22ac5deb4c89d59b5ff729",
+      "checksum": "a087e9493c709baa4c2ecdc9c34f33f802e0cca7b8ec6b2b82cb2c2475f16368",
       "size": 1672,
       "readingTimeMinutes": 2,
       "tags": [
@@ -428,7 +428,7 @@
       "hasAudio": false,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "7d7443553dca069805150a00d55b8d86ac284c7bed1230eb10362e50b7dcbd1d",
+      "checksum": "f12ed0e35de87a3114dea360841ccf20f7b114d7095a25d7b1d05124ff7d4a57",
       "size": 2092,
       "readingTimeMinutes": 3,
       "tags": [
@@ -452,7 +452,7 @@
       "hasAudio": false,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "511002af2f24878ce1d84ee81266b02c047ec1f747353f87bb009ba2dbf7b3bf",
+      "checksum": "5fc4f08cbe3efdc8b0f7a3040d254c043fc32b37956c854312cf3066c9dc326d",
       "size": 1762,
       "readingTimeMinutes": 2,
       "tags": [
@@ -476,7 +476,7 @@
       "hasAudio": false,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "6d1e94672d935e2da236909cedbadfdf7075b37b922cd02662f11ace407a885d",
+      "checksum": "f913e0a554ac644af9cc798011e11fe1498af38194efe941c606ad814597111d",
       "size": 1585,
       "readingTimeMinutes": 2,
       "tags": [
@@ -500,7 +500,7 @@
       "hasAudio": false,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "13d27df23e147603a2f3ba6d8c490a33f9e90a6b0a778f75245e4a028b43d0e0",
+      "checksum": "11282ed53b2d9ecf58aa0cd1277dd9155579600011f9b285a69f7ac0613acf4e",
       "size": 1734,
       "readingTimeMinutes": 2,
       "tags": [
@@ -524,7 +524,7 @@
       "hasAudio": false,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "7df70205e7a64eb6b2f5fe8eb1b94dbeb1c3ee9a8785535fd6e4064ffbe93305",
+      "checksum": "ffa212a3f037c64de38fd5d495b145f158a0a32aa55053ece4c694b0022ef651",
       "size": 1524,
       "readingTimeMinutes": 2,
       "tags": [
@@ -549,7 +549,7 @@
       "hasAudio": false,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "c6c60d0b5e91316ba9c8baf35ce4660ae92d36e6006bfe8a8350616861783731",
+      "checksum": "2d84afa50032b841e571a10a5f88ab74db1710a1f609364664103dea2a5c904d",
       "size": 1413,
       "readingTimeMinutes": 2,
       "tags": [
@@ -573,7 +573,7 @@
       "hasAudio": false,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "b5b2400ff4cf142dc2e136aa0d2d5b6190dd10b85c81f002220d1e2770208eb3",
+      "checksum": "a4131fd696cac1c8d480edef2f794e735fbba2005c18f61020ccd84282dae0af",
       "size": 1642,
       "readingTimeMinutes": 1,
       "tags": [
@@ -597,7 +597,7 @@
       "hasAudio": false,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "7a8a342167564b3300e7520539d73dc39cd25f2476c65cd2d3a3b71f7ad3eda4",
+      "checksum": "cacada7aa799f637d739d4a3e32d1468f0a07cc931c7b1a97964a7d5b88deee5",
       "size": 1639,
       "readingTimeMinutes": 2,
       "tags": [
@@ -622,7 +622,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "0cbdacf8ee316590e585c892caa4c8b606dfd6e6fd03bb2f48cd3bc1a60e6f3f",
+      "checksum": "3facfd1780c9932baf0c6457cab809faa3058c83735383fea2846b63032e15cd",
       "size": 2748,
       "readingTimeMinutes": 6,
       "tags": [
@@ -645,7 +645,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "36ec3fa9bf5617694528114b7e309a9a75cf82bcc4d9f60cf62f5d525384f60b",
+      "checksum": "38579d049315c80503baaa4eaaac9a77a4f284f39f2033af5d86da8412bc0aa6",
       "size": 1905,
       "readingTimeMinutes": 4,
       "tags": [
@@ -671,7 +671,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "e36522f37fffb9b9a0e35308129c7b967700e34429b93bdd03d64ecb8d47e9f3",
+      "checksum": "364dcad654bad7118eeaa3f5515e6f5beff3bcabb011511ff153170a06e2065d",
       "size": 1252,
       "readingTimeMinutes": 1,
       "tags": [
@@ -698,7 +698,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "fb7cabdf6682e34370817fc8769ab4c2a747ba1a1bb78f228ee6aa968bc4cd25",
+      "checksum": "0f7a890fbd4846cf532217f248a811820d6668ca02a1dca9df9eddcc41b90421",
       "size": 3920,
       "readingTimeMinutes": 8,
       "tags": [
@@ -723,7 +723,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "518667401031a4d1880046762e2a826e4b11fad678647bcdf659de240f6fe13a",
+      "checksum": "fea620a0e0f93d7b72b0849455ae2366e33780a5bc23bc22aedfc6675a0788b0",
       "size": 2069,
       "readingTimeMinutes": 5,
       "tags": [
@@ -748,7 +748,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "57d12f33f9bb074b0bc6c36df71cce2781acb4b32a79bf1c6580be23be0774a8",
+      "checksum": "5b66ebec70428995f1301c3631953fc66fbad052344d5cabd6a9bc513f051ce4",
       "size": 2130,
       "readingTimeMinutes": 4,
       "tags": [
@@ -773,7 +773,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "5667291d97b88d5e71c6c16160bfffb01173253f8dd0256cbcfc09a006de61d0",
+      "checksum": "2dc1f91c6ea57e4c39c4d2039ba58e07954c25557fcd1baa18edc695ef2d4e71",
       "size": 3215,
       "readingTimeMinutes": 5,
       "tags": [
@@ -798,7 +798,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "737a53598036e3be6913bfae3bfdedd06ded7d06ea1b93d19b3831166505776d",
+      "checksum": "74f105519843eebc5e15c4d0bff464d343932ae7faaf0a0b4e51edd3e6c03695",
       "size": 2723,
       "readingTimeMinutes": 7,
       "tags": [
@@ -825,7 +825,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "243b6bfe6acf46d8d340804b7edf57665c710879433ef1741bed3aabf9f75fb8",
+      "checksum": "86d856b0b98ce7e927dad0cbc83de5d119cf993d5035ef722fda75bcc51536c4",
       "size": 2211,
       "readingTimeMinutes": 4,
       "tags": [
@@ -849,7 +849,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "9fdba1bf8f0e7fd38f131963983584aeb3be761f0ba6f91dc8b9a9e1c2b7f90f",
+      "checksum": "677d4b6468ce3108b9b5cc9b79e351cc497d56c33a8628be3352a11e73bed879",
       "size": 3021,
       "readingTimeMinutes": 10,
       "tags": [
@@ -875,7 +875,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "097ad9907389ca07c7d3184aff6a728a7668ea74322b5eaa0fc6358b6a4b091d",
+      "checksum": "ce58fa8836ea275a501eb9010da4a182c57d5288b94a445b4c89e4d9ca593d31",
       "size": 2820,
       "readingTimeMinutes": 6,
       "tags": [
@@ -885,12 +885,37 @@
         "navratri",
         "protection"
       ]
+    },
+    {
+      "id": "damodarashtakam",
+      "name": "Damodarashtakam",
+      "description": "8 Verses to Baby Krishna - Kartik Month Special",
+      "path": "texts/damodarashtakam/index.json",
+      "bundle": "texts/damodarashtakam.zip",
+      "languages": [
+        "en",
+        "gu",
+        "hi"
+      ],
+      "hasAudio": false,
+      "hasMeanings": true,
+      "hasImage": false,
+      "checksum": "c724d48b33560b1214629b0447ff031d12fa060d7d4e58dda1669e4cb487237c",
+      "size": 4737,
+      "readingTimeMinutes": 5,
+      "tags": [
+        "evening",
+        "thursday",
+        "stotra",
+        "janmashtami",
+        "peace"
+      ]
     }
   ],
   "_meta": {
-    "generatedAt": "2026-06-11T16:17:21.804439Z",
+    "generatedAt": "2026-06-11T16:26:44.945109Z",
     "generator": "build.py",
-    "itemCount": 35
+    "itemCount": 36
   },
   "categories": [
     {
@@ -938,7 +963,8 @@
         "hare_krishna_mahamantra",
         "krishna_chalisa",
         "govinda_namalu",
-        "madhurashtakam"
+        "madhurashtakam",
+        "damodarashtakam"
       ]
     },
     {

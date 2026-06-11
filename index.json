@@ -5,7 +5,7 @@
     "supportEmail": "utsavhacker@gmail.com"
   },
   "data": {
-    "version": 19,
+    "version": 20,
     "minAppVersion": "1.0"
   },
   "config": {
@@ -116,7 +116,8 @@
         "hare_krishna_mahamantra",
         "krishna_chalisa",
         "govinda_namalu",
-        "madhurashtakam"
+        "madhurashtakam",
+        "damodarashtakam"
       ]
     },
     {
@@ -608,6 +609,19 @@
         "stotra",
         "navratri",
         "protection"
+      ]
+    },
+    {
+      "id": "damodarashtakam",
+      "name": "Damodarashtakam",
+      "description": "8 Verses to Baby Krishna - Kartik Month Special",
+      "readingTimeMinutes": 5,
+      "tags": [
+        "evening",
+        "thursday",
+        "stotra",
+        "janmashtami",
+        "peace"
       ]
     }
   ]
