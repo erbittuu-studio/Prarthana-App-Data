@@ -5,7 +5,7 @@
     "supportEmail": "utsavhacker@gmail.com"
   },
   "data": {
-    "version": 12,
+    "version": 14,
     "minAppVersion": "1.0"
   },
   "config": {
@@ -18,7 +18,7 @@
     "rotationDays": 7,
     "items": [
       "gayatri_mantra",
-      "hauman_chalisa",
+      "hanuman_chalisa",
       "shiv_tandav",
       "ganesh_aarti",
       "jay_adhya_shakti",
@@ -46,10 +46,22 @@
       "encouragement": "Ganpati Bappa Morya!"
     },
     {
-      "id": "devi",
-      "name": "Devi",
-      "devotionTitle": "Devi Bhakt",
+      "id": "durga",
+      "name": "Durga",
+      "devotionTitle": "Durga Bhakt",
       "encouragement": "Jai Mata Di! Blessings upon you."
+    },
+    {
+      "id": "krishna",
+      "name": "Krishna",
+      "devotionTitle": "Krishna Bhakt",
+      "encouragement": "Hare Krishna! Radhe Radhe!"
+    },
+    {
+      "id": "lakshmi",
+      "name": "Lakshmi",
+      "devotionTitle": "Lakshmi Bhakt",
+      "encouragement": "Om Shri Mahalakshmyai Namah!"
     },
     {
       "id": "daily_prayers",
@@ -64,9 +76,10 @@
       "name": "Hanuman",
       "image": "hanuman.jpg",
       "items": [
-        "hauman_chalisa",
+        "hanuman_chalisa",
         "bajrang_baan",
-        "sankat_mochan"
+        "sankat_mochan",
+        "hanuman_aarti"
       ]
     },
     {
@@ -90,14 +103,29 @@
       ]
     },
     {
-      "id": "devi",
-      "name": "Devi",
-      "image": "devi.jpg",
+      "id": "durga",
+      "name": "Durga",
+      "image": "durga.jpg",
       "items": [
         "jay_adhya_shakti",
-        "saraswati_vandana",
-        "saraswati_namastubhyam",
-        "jai_ambe_gauri"
+        "jai_ambe_gauri",
+        "durga_chalisa"
+      ]
+    },
+    {
+      "id": "krishna",
+      "name": "Krishna",
+      "image": "krishna.jpg",
+      "items": [
+        "krishna_aarti"
+      ]
+    },
+    {
+      "id": "lakshmi",
+      "name": "Lakshmi",
+      "image": "lakshmi.jpg",
+      "items": [
+        "lakshmi_aarti"
       ]
     },
     {
@@ -112,8 +140,6 @@
         "asato_ma",
         "karagre_vasate",
         "shubham_karoti",
-        "vakratunda_mahakaya",
-        "ganesh_aarti",
         "saraswati_vandana",
         "saraswati_namastubhyam",
         "om_jai_jagdish_hare"
@@ -122,13 +148,18 @@
   ],
   "items": [
     {
-      "id": "hauman_chalisa",
+      "id": "hanuman_chalisa",
       "name": "Hanuman Chalisa",
       "description": "40 Chaupai by Tulsidas",
       "readingTimeMinutes": 8,
       "tags": [
         "morning",
+        "evening",
+        "chalisa",
         "protection",
+        "devotion",
+        "intermediate",
+        "long",
         "popular"
       ]
     },
@@ -138,8 +169,11 @@
       "description": "Powerful Protection Prayer",
       "readingTimeMinutes": 7,
       "tags": [
+        "anytime",
+        "stotra",
         "protection",
-        "powerful"
+        "advanced",
+        "long"
       ]
     },
     {
@@ -148,8 +182,25 @@
       "description": "8 Verses - Remover of Difficulties",
       "readingTimeMinutes": 6,
       "tags": [
+        "anytime",
+        "stotra",
         "protection",
-        "difficulties"
+        "health",
+        "intermediate",
+        "medium"
+      ]
+    },
+    {
+      "id": "hanuman_aarti",
+      "name": "Hanuman Aarti",
+      "description": "Aarti of Lord Hanuman",
+      "readingTimeMinutes": 4,
+      "tags": [
+        "evening",
+        "aarti",
+        "devotion",
+        "beginner",
+        "medium"
       ]
     },
     {
@@ -160,167 +211,11 @@
       "tags": [
         "evening",
         "aarti",
+        "navratri",
+        "devotion",
+        "intermediate",
+        "medium",
         "popular"
-      ]
-    },
-    {
-      "id": "ganesh_aarti",
-      "name": "Ganesh Aarti",
-      "description": "Jai Ganesh Jai Ganesh Deva",
-      "readingTimeMinutes": 4,
-      "tags": [
-        "morning",
-        "aarti",
-        "popular"
-      ]
-    },
-    {
-      "id": "shiv_tandav",
-      "name": "Shiv Tandav Stotram",
-      "description": "By Ravana - 16 Shlokas",
-      "readingTimeMinutes": 6,
-      "tags": [
-        "powerful",
-        "popular"
-      ]
-    },
-    {
-      "id": "gayatri_mantra",
-      "name": "Gayatri Mantra",
-      "description": "Most Powerful Vedic Mantra",
-      "readingTimeMinutes": 2,
-      "tags": [
-        "morning",
-        "daily",
-        "vedic",
-        "popular"
-      ]
-    },
-    {
-      "id": "saraswati_vandana",
-      "name": "Saraswati Vandana",
-      "description": "Prayer to Goddess of Knowledge",
-      "readingTimeMinutes": 3,
-      "tags": [
-        "morning",
-        "studies",
-        "knowledge"
-      ]
-    },
-    {
-      "id": "guru_brahma",
-      "name": "Guru Brahma Guru Vishnu",
-      "description": "Guru Mantra - Salutation to Teacher",
-      "readingTimeMinutes": 2,
-      "tags": [
-        "morning",
-        "daily",
-        "guru"
-      ]
-    },
-    {
-      "id": "om_sahana_vavatu",
-      "name": "Om Sahana Vavatu",
-      "description": "Shanti Mantra - Peace Invocation",
-      "readingTimeMinutes": 2,
-      "tags": [
-        "morning",
-        "daily",
-        "peace"
-      ]
-    },
-    {
-      "id": "twameva_mata",
-      "name": "Twameva Mata Cha Pita Twameva",
-      "description": "Universal Prayer of Surrender",
-      "readingTimeMinutes": 2,
-      "tags": [
-        "daily",
-        "surrender"
-      ]
-    },
-    {
-      "id": "vakratunda_mahakaya",
-      "name": "Vakratunda Mahakaya",
-      "description": "Ganesh Shloka - Remover of Obstacles",
-      "readingTimeMinutes": 1,
-      "tags": [
-        "morning",
-        "daily",
-        "beginning"
-      ]
-    },
-    {
-      "id": "saraswati_namastubhyam",
-      "name": "Saraswati Namastubhyam",
-      "description": "Saraswati Shloka for Studies",
-      "readingTimeMinutes": 2,
-      "tags": [
-        "morning",
-        "studies",
-        "knowledge"
-      ]
-    },
-    {
-      "id": "asato_ma",
-      "name": "Asato Ma Sadgamaya",
-      "description": "Lead Me from Darkness to Light",
-      "readingTimeMinutes": 2,
-      "tags": [
-        "daily",
-        "wisdom"
-      ]
-    },
-    {
-      "id": "karagre_vasate",
-      "name": "Karagre Vasate Lakshmi",
-      "description": "Morning Prayer - Kar Darshan",
-      "readingTimeMinutes": 1,
-      "tags": [
-        "morning",
-        "daily",
-        "wakeup"
-      ]
-    },
-    {
-      "id": "shubham_karoti",
-      "name": "Shubham Karoti Kalyanam",
-      "description": "Evening Prayer - Deep Shloka",
-      "readingTimeMinutes": 2,
-      "tags": [
-        "evening",
-        "daily",
-        "lamp"
-      ]
-    },
-    {
-      "id": "shiv_chalisa",
-      "name": "Shiv Chalisa",
-      "description": "40 Verses in Praise of Lord Shiva",
-      "readingTimeMinutes": 7,
-      "tags": [
-        "devotion"
-      ]
-    },
-    {
-      "id": "shiv_aarti",
-      "name": "Om Jai Shiv Omkara",
-      "description": "Shiv Aarti - Most Popular",
-      "readingTimeMinutes": 5,
-      "tags": [
-        "evening",
-        "aarti",
-        "popular"
-      ]
-    },
-    {
-      "id": "sukhkarta_dukhharta",
-      "name": "Sukhkarta Dukhharta",
-      "description": "Ganesh Aarti - Marathi",
-      "readingTimeMinutes": 4,
-      "tags": [
-        "evening",
-        "aarti"
       ]
     },
     {
@@ -331,7 +226,264 @@
       "tags": [
         "evening",
         "aarti",
-        "navratri"
+        "navratri",
+        "devotion",
+        "beginner",
+        "medium"
+      ]
+    },
+    {
+      "id": "durga_chalisa",
+      "name": "Durga Chalisa",
+      "description": "40 Verses in Praise of Maa Durga",
+      "readingTimeMinutes": 8,
+      "tags": [
+        "morning",
+        "chalisa",
+        "navratri",
+        "protection",
+        "intermediate",
+        "long"
+      ]
+    },
+    {
+      "id": "ganesh_aarti",
+      "name": "Ganesh Aarti",
+      "description": "Jai Ganesh Jai Ganesh Deva",
+      "readingTimeMinutes": 4,
+      "tags": [
+        "morning",
+        "evening",
+        "aarti",
+        "beginner",
+        "medium",
+        "popular"
+      ]
+    },
+    {
+      "id": "vakratunda_mahakaya",
+      "name": "Vakratunda Mahakaya",
+      "description": "Ganesh Shloka - Remover of Obstacles",
+      "readingTimeMinutes": 1,
+      "tags": [
+        "morning",
+        "shloka",
+        "daily",
+        "beginner",
+        "quick"
+      ]
+    },
+    {
+      "id": "sukhkarta_dukhharta",
+      "name": "Sukhkarta Dukhharta",
+      "description": "Ganesh Aarti - Marathi",
+      "readingTimeMinutes": 4,
+      "tags": [
+        "evening",
+        "aarti",
+        "devotion",
+        "intermediate",
+        "medium"
+      ]
+    },
+    {
+      "id": "shiv_tandav",
+      "name": "Shiv Tandav Stotram",
+      "description": "By Ravana - 16 Shlokas",
+      "readingTimeMinutes": 6,
+      "tags": [
+        "anytime",
+        "stotra",
+        "shivaratri",
+        "devotion",
+        "advanced",
+        "medium",
+        "popular"
+      ]
+    },
+    {
+      "id": "shiv_chalisa",
+      "name": "Shiv Chalisa",
+      "description": "40 Verses in Praise of Lord Shiva",
+      "readingTimeMinutes": 7,
+      "tags": [
+        "morning",
+        "chalisa",
+        "shivaratri",
+        "devotion",
+        "intermediate",
+        "long"
+      ]
+    },
+    {
+      "id": "shiv_aarti",
+      "name": "Om Jai Shiv Omkara",
+      "description": "Shiv Aarti - Most Popular",
+      "readingTimeMinutes": 5,
+      "tags": [
+        "evening",
+        "aarti",
+        "shivaratri",
+        "devotion",
+        "beginner",
+        "medium",
+        "popular"
+      ]
+    },
+    {
+      "id": "krishna_aarti",
+      "name": "Krishna Aarti",
+      "description": "Aarti Kunj Bihari Ki",
+      "readingTimeMinutes": 5,
+      "tags": [
+        "evening",
+        "aarti",
+        "janmashtami",
+        "devotion",
+        "beginner",
+        "medium",
+        "popular"
+      ]
+    },
+    {
+      "id": "lakshmi_aarti",
+      "name": "Lakshmi Aarti",
+      "description": "Om Jai Lakshmi Mata",
+      "readingTimeMinutes": 5,
+      "tags": [
+        "evening",
+        "friday",
+        "aarti",
+        "prosperity",
+        "diwali",
+        "beginner",
+        "medium",
+        "popular"
+      ]
+    },
+    {
+      "id": "gayatri_mantra",
+      "name": "Gayatri Mantra",
+      "description": "Most Powerful Vedic Mantra",
+      "readingTimeMinutes": 2,
+      "tags": [
+        "morning",
+        "mantra",
+        "daily",
+        "peace",
+        "beginner",
+        "quick",
+        "popular"
+      ]
+    },
+    {
+      "id": "saraswati_vandana",
+      "name": "Saraswati Vandana",
+      "description": "Prayer to Goddess of Knowledge",
+      "readingTimeMinutes": 3,
+      "tags": [
+        "morning",
+        "shloka",
+        "knowledge",
+        "beginner",
+        "quick"
+      ]
+    },
+    {
+      "id": "saraswati_namastubhyam",
+      "name": "Saraswati Namastubhyam",
+      "description": "Saraswati Shloka for Studies",
+      "readingTimeMinutes": 2,
+      "tags": [
+        "morning",
+        "shloka",
+        "knowledge",
+        "beginner",
+        "quick"
+      ]
+    },
+    {
+      "id": "guru_brahma",
+      "name": "Guru Brahma Guru Vishnu",
+      "description": "Guru Mantra - Salutation to Teacher",
+      "readingTimeMinutes": 2,
+      "tags": [
+        "morning",
+        "mantra",
+        "daily",
+        "knowledge",
+        "beginner",
+        "quick"
+      ]
+    },
+    {
+      "id": "om_sahana_vavatu",
+      "name": "Om Sahana Vavatu",
+      "description": "Shanti Mantra - Peace Invocation",
+      "readingTimeMinutes": 2,
+      "tags": [
+        "morning",
+        "mantra",
+        "daily",
+        "peace",
+        "beginner",
+        "quick"
+      ]
+    },
+    {
+      "id": "twameva_mata",
+      "name": "Twameva Mata Cha Pita Twameva",
+      "description": "Universal Prayer of Surrender",
+      "readingTimeMinutes": 2,
+      "tags": [
+        "anytime",
+        "shloka",
+        "daily",
+        "devotion",
+        "beginner",
+        "quick"
+      ]
+    },
+    {
+      "id": "asato_ma",
+      "name": "Asato Ma Sadgamaya",
+      "description": "Lead Me from Darkness to Light",
+      "readingTimeMinutes": 2,
+      "tags": [
+        "morning",
+        "mantra",
+        "daily",
+        "peace",
+        "beginner",
+        "quick"
+      ]
+    },
+    {
+      "id": "karagre_vasate",
+      "name": "Karagre Vasate Lakshmi",
+      "description": "Morning Prayer - Kar Darshan",
+      "readingTimeMinutes": 1,
+      "tags": [
+        "morning",
+        "shloka",
+        "daily",
+        "prosperity",
+        "beginner",
+        "quick"
+      ]
+    },
+    {
+      "id": "shubham_karoti",
+      "name": "Shubham Karoti Kalyanam",
+      "description": "Evening Prayer - Deep Shloka",
+      "readingTimeMinutes": 2,
+      "tags": [
+        "evening",
+        "shloka",
+        "daily",
+        "peace",
+        "beginner",
+        "quick"
       ]
     },
     {
@@ -342,6 +494,10 @@
       "tags": [
         "evening",
         "aarti",
+        "daily",
+        "devotion",
+        "beginner",
+        "medium",
         "popular"
       ]
     }

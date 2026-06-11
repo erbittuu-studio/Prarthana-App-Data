@@ -5,7 +5,7 @@
     "supportEmail": "utsavhacker@gmail.com"
   },
   "data": {
-    "version": 12,
+    "version": 14,
     "minAppVersion": "1.0"
   },
   "config": {
@@ -15,25 +15,30 @@
   },
   "items": [
     {
-      "id": "hauman_chalisa",
+      "id": "hanuman_chalisa",
       "name": "Hanuman Chalisa",
       "description": "40 Chaupai by Tulsidas",
-      "path": "texts/hauman_chalisa/index.json",
-      "bundle": "texts/hauman_chalisa.zip",
+      "path": "texts/hanuman_chalisa/index.json",
+      "bundle": "texts/hanuman_chalisa.zip",
       "languages": [
-        "en",
+        "gu",
         "hi",
-        "gu"
+        "en"
       ],
       "hasAudio": true,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "ab86d48cfc9317245b6aa5146fc9b4f2af01f4f0fcea1475d998ea4467f82b01",
-      "size": 4549003,
+      "checksum": "d29ea568a03fe49025e6350197cefc0f10a5de599eb33515231895192184de5d",
+      "size": 4549029,
       "readingTimeMinutes": 8,
       "tags": [
         "morning",
+        "evening",
+        "chalisa",
         "protection",
+        "devotion",
+        "intermediate",
+        "long",
         "popular"
       ]
     },
@@ -51,12 +56,15 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "07ecf41aec19655e0727973ecdf830df7e37ad7f0d038a120e64653973adc620",
+      "checksum": "c91b80e75ed793ec41c5c8737f084df6ef17f8174618a6dbf34b4863668b4dac",
       "size": 11101188,
       "readingTimeMinutes": 7,
       "tags": [
+        "anytime",
+        "stotra",
         "protection",
-        "powerful"
+        "advanced",
+        "long"
       ]
     },
     {
@@ -73,12 +81,41 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "a5ddc331007b7978de04eaa36322205e52368dc1f26d102556a758769fbd0ed1",
+      "checksum": "6264c16624110410eb6ab4cbc6f25efab12a7af559b3a37e0653b825fb605f70",
       "size": 8812198,
       "readingTimeMinutes": 6,
       "tags": [
+        "anytime",
+        "stotra",
         "protection",
-        "difficulties"
+        "health",
+        "intermediate",
+        "medium"
+      ]
+    },
+    {
+      "id": "hanuman_aarti",
+      "name": "Hanuman Aarti",
+      "description": "Aarti of Lord Hanuman",
+      "path": "texts/hanuman_aarti/index.json",
+      "bundle": "texts/hanuman_aarti.zip",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "hasAudio": false,
+      "hasMeanings": false,
+      "hasImage": false,
+      "checksum": "05260cccda8b3132a8381af618d27cc3650a26a0826fc8a96f3527b78ea9b4fa",
+      "size": 2434,
+      "readingTimeMinutes": 4,
+      "tags": [
+        "evening",
+        "aarti",
+        "devotion",
+        "beginner",
+        "medium"
       ]
     },
     {
@@ -95,13 +132,69 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "239f4d56015e2652e6b64a43ef1c38e64ed90c3e7e2d74de9e5aa31db9dc5d25",
+      "checksum": "5956a3303b2e7b6e74cfef77152121e3d2c2675663fd282920c5cbf3d378c070",
       "size": 19432118,
       "readingTimeMinutes": 5,
       "tags": [
         "evening",
         "aarti",
+        "navratri",
+        "devotion",
+        "intermediate",
+        "medium",
         "popular"
+      ]
+    },
+    {
+      "id": "jai_ambe_gauri",
+      "name": "Jai Ambe Gauri",
+      "description": "Durga Aarti - Navratri Special",
+      "path": "texts/jai_ambe_gauri/index.json",
+      "bundle": "texts/jai_ambe_gauri.zip",
+      "languages": [
+        "gu",
+        "hi",
+        "en"
+      ],
+      "hasAudio": false,
+      "hasMeanings": false,
+      "hasImage": false,
+      "checksum": "5f830f886d5ca7bc47625e271af324f14a2c46a1e154f88cc8184ca6fe52b79b",
+      "size": 3353,
+      "readingTimeMinutes": 5,
+      "tags": [
+        "evening",
+        "aarti",
+        "navratri",
+        "devotion",
+        "beginner",
+        "medium"
+      ]
+    },
+    {
+      "id": "durga_chalisa",
+      "name": "Durga Chalisa",
+      "description": "40 Verses in Praise of Maa Durga",
+      "path": "texts/durga_chalisa/index.json",
+      "bundle": "texts/durga_chalisa.zip",
+      "languages": [
+        "en",
+        "gu",
+        "hi"
+      ],
+      "hasAudio": false,
+      "hasMeanings": false,
+      "hasImage": false,
+      "checksum": "9a1acd827f7ee166d557eaafec35fb248b982eaee6acc96a5e78f417dcd24ae9",
+      "size": 6322,
+      "readingTimeMinutes": 8,
+      "tags": [
+        "morning",
+        "chalisa",
+        "navratri",
+        "protection",
+        "intermediate",
+        "long"
       ]
     },
     {
@@ -118,13 +211,66 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "a8787c659484e3ab7c8e067a0e0a74e3b916364dab3ea912a68ad9c5b4bf910c",
+      "checksum": "7e1b8c50ef34437f5f3d8b5943220d6e4189c378c8d62d3a61ec7e2087a8bf42",
       "size": 6486464,
       "readingTimeMinutes": 4,
       "tags": [
         "morning",
+        "evening",
         "aarti",
+        "beginner",
+        "medium",
         "popular"
+      ]
+    },
+    {
+      "id": "vakratunda_mahakaya",
+      "name": "Vakratunda Mahakaya",
+      "description": "Ganesh Shloka - Remover of Obstacles",
+      "path": "texts/vakratunda_mahakaya/index.json",
+      "bundle": "texts/vakratunda_mahakaya.zip",
+      "languages": [
+        "hi",
+        "gu",
+        "en"
+      ],
+      "hasAudio": false,
+      "hasMeanings": true,
+      "hasImage": false,
+      "checksum": "d10e8297cf0b9e587e9bc538c30c0d6ea117e65e88d55fc59485b284e7afaf3d",
+      "size": 1698,
+      "readingTimeMinutes": 1,
+      "tags": [
+        "morning",
+        "shloka",
+        "daily",
+        "beginner",
+        "quick"
+      ]
+    },
+    {
+      "id": "sukhkarta_dukhharta",
+      "name": "Sukhkarta Dukhharta",
+      "description": "Ganesh Aarti - Marathi",
+      "path": "texts/sukhkarta_dukhharta/index.json",
+      "bundle": "texts/sukhkarta_dukhharta.zip",
+      "languages": [
+        "en",
+        "gu",
+        "hi"
+      ],
+      "hasAudio": false,
+      "hasMeanings": false,
+      "hasImage": false,
+      "checksum": "fad1e29c2e19eb545f0150cfc1dfd5dc772702458c46fbaf4de40efa6f42b297",
+      "size": 2283,
+      "readingTimeMinutes": 4,
+      "tags": [
+        "evening",
+        "aarti",
+        "devotion",
+        "intermediate",
+        "medium"
       ]
     },
     {
@@ -141,11 +287,124 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "f7cc425028999166d54bb1b872a10c9caddb368d087a59a5a4fb197eb19d58be",
+      "checksum": "43ab6fcb10713a6833d620a8599b3f50621788e446e14106a72cb7412ba792d2",
       "size": 9269482,
       "readingTimeMinutes": 6,
       "tags": [
-        "powerful",
+        "anytime",
+        "stotra",
+        "shivaratri",
+        "devotion",
+        "advanced",
+        "medium",
+        "popular"
+      ]
+    },
+    {
+      "id": "shiv_chalisa",
+      "name": "Shiv Chalisa",
+      "description": "40 Verses in Praise of Lord Shiva",
+      "path": "texts/shiv_chalisa/index.json",
+      "bundle": "texts/shiv_chalisa.zip",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "hasAudio": false,
+      "hasMeanings": false,
+      "hasImage": false,
+      "checksum": "f3a5a3fcdadc0b2dbfa05093b33700f845f25eeef3e2b5354a4cb5dec47cafc2",
+      "size": 6272,
+      "readingTimeMinutes": 7,
+      "tags": [
+        "morning",
+        "chalisa",
+        "shivaratri",
+        "devotion",
+        "intermediate",
+        "long"
+      ]
+    },
+    {
+      "id": "shiv_aarti",
+      "name": "Om Jai Shiv Omkara",
+      "description": "Shiv Aarti - Most Popular",
+      "path": "texts/shiv_aarti/index.json",
+      "bundle": "texts/shiv_aarti.zip",
+      "languages": [
+        "hi",
+        "gu",
+        "en"
+      ],
+      "hasAudio": false,
+      "hasMeanings": false,
+      "hasImage": false,
+      "checksum": "4c807957f6652595bf6d14861691b6f834f92d4d57ba30dc21e97e87343398aa",
+      "size": 2601,
+      "readingTimeMinutes": 5,
+      "tags": [
+        "evening",
+        "aarti",
+        "shivaratri",
+        "devotion",
+        "beginner",
+        "medium",
+        "popular"
+      ]
+    },
+    {
+      "id": "krishna_aarti",
+      "name": "Krishna Aarti",
+      "description": "Aarti Kunj Bihari Ki",
+      "path": "texts/krishna_aarti/index.json",
+      "bundle": "texts/krishna_aarti.zip",
+      "languages": [
+        "en",
+        "gu",
+        "hi"
+      ],
+      "hasAudio": false,
+      "hasMeanings": false,
+      "hasImage": false,
+      "checksum": "2c8b8f26fbe8e9776590cc1c3d8f056cc223174aff8a718f511511fa105ab1e6",
+      "size": 2088,
+      "readingTimeMinutes": 5,
+      "tags": [
+        "evening",
+        "aarti",
+        "janmashtami",
+        "devotion",
+        "beginner",
+        "medium",
+        "popular"
+      ]
+    },
+    {
+      "id": "lakshmi_aarti",
+      "name": "Lakshmi Aarti",
+      "description": "Om Jai Lakshmi Mata",
+      "path": "texts/lakshmi_aarti/index.json",
+      "bundle": "texts/lakshmi_aarti.zip",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "hasAudio": false,
+      "hasMeanings": false,
+      "hasImage": false,
+      "checksum": "a68ba6efa5b0964795d528e7969129b6b26b6b9897f5181665baa7244f757e62",
+      "size": 2485,
+      "readingTimeMinutes": 5,
+      "tags": [
+        "evening",
+        "friday",
+        "aarti",
+        "prosperity",
+        "diwali",
+        "beginner",
+        "medium",
         "popular"
       ]
     },
@@ -163,13 +422,16 @@
       "hasAudio": false,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "a2cf1fb84a3fd98283f21a78bba1f4cf1d9efb52c654ebdae967bc8d74455831",
+      "checksum": "a7fc1327aee286a8af60d21aa8493507e1ca938f87e749786b53fab1069a1f67",
       "size": 1672,
       "readingTimeMinutes": 2,
       "tags": [
         "morning",
+        "mantra",
         "daily",
-        "vedic",
+        "peace",
+        "beginner",
+        "quick",
         "popular"
       ]
     },
@@ -187,104 +449,15 @@
       "hasAudio": false,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "eae09bc7aafc648f93d8ee7ec427288cf20edbebf8f6ca0f9ecbc5d9bb166d57",
+      "checksum": "9b7234f5263c8382c19be3ef50893fcaa5775912bbddd40ef10fdd3e9a847088",
       "size": 2092,
       "readingTimeMinutes": 3,
       "tags": [
         "morning",
-        "studies",
-        "knowledge"
-      ]
-    },
-    {
-      "id": "guru_brahma",
-      "name": "Guru Brahma Guru Vishnu",
-      "description": "Guru Mantra - Salutation to Teacher",
-      "path": "texts/guru_brahma/index.json",
-      "bundle": "texts/guru_brahma.zip",
-      "languages": [
-        "en",
-        "hi",
-        "gu"
-      ],
-      "hasAudio": false,
-      "hasMeanings": true,
-      "hasImage": false,
-      "checksum": "773d0cbeb4a24feb727d780ccccba78b71b1053b4248a8b3783012acb5742fbd",
-      "size": 1585,
-      "readingTimeMinutes": 2,
-      "tags": [
-        "morning",
-        "daily",
-        "guru"
-      ]
-    },
-    {
-      "id": "om_sahana_vavatu",
-      "name": "Om Sahana Vavatu",
-      "description": "Shanti Mantra - Peace Invocation",
-      "path": "texts/om_sahana_vavatu/index.json",
-      "bundle": "texts/om_sahana_vavatu.zip",
-      "languages": [
-        "en",
-        "gu",
-        "hi"
-      ],
-      "hasAudio": false,
-      "hasMeanings": true,
-      "hasImage": false,
-      "checksum": "278083af7d6447345acf852db02e1654d9bd270774a5c6f417f8294d9bbf52bc",
-      "size": 1734,
-      "readingTimeMinutes": 2,
-      "tags": [
-        "morning",
-        "daily",
-        "peace"
-      ]
-    },
-    {
-      "id": "twameva_mata",
-      "name": "Twameva Mata Cha Pita Twameva",
-      "description": "Universal Prayer of Surrender",
-      "path": "texts/twameva_mata/index.json",
-      "bundle": "texts/twameva_mata.zip",
-      "languages": [
-        "en",
-        "hi",
-        "gu"
-      ],
-      "hasAudio": false,
-      "hasMeanings": true,
-      "hasImage": false,
-      "checksum": "c0b0d4b314a676b1bf312e65c117f5a7cae1ac5845dc83b78c32a830099c8388",
-      "size": 1524,
-      "readingTimeMinutes": 2,
-      "tags": [
-        "daily",
-        "surrender"
-      ]
-    },
-    {
-      "id": "vakratunda_mahakaya",
-      "name": "Vakratunda Mahakaya",
-      "description": "Ganesh Shloka - Remover of Obstacles",
-      "path": "texts/vakratunda_mahakaya/index.json",
-      "bundle": "texts/vakratunda_mahakaya.zip",
-      "languages": [
-        "hi",
-        "gu",
-        "en"
-      ],
-      "hasAudio": false,
-      "hasMeanings": true,
-      "hasImage": false,
-      "checksum": "011b11d4d0bfaeab75af7f3efeddd7a444b46789f773bf25d4cf0eef49375a2b",
-      "size": 1698,
-      "readingTimeMinutes": 1,
-      "tags": [
-        "morning",
-        "daily",
-        "beginning"
+        "shloka",
+        "knowledge",
+        "beginner",
+        "quick"
       ]
     },
     {
@@ -301,13 +474,93 @@
       "hasAudio": false,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "373746a4da857fd5bf3efe187cce3bf1d3975a934963fa0d17de20bce20929c6",
+      "checksum": "e16fac33ea1410f5d9cb6fac081badc9bcb38684985c69fdd441823e692f5df2",
       "size": 1762,
       "readingTimeMinutes": 2,
       "tags": [
         "morning",
-        "studies",
-        "knowledge"
+        "shloka",
+        "knowledge",
+        "beginner",
+        "quick"
+      ]
+    },
+    {
+      "id": "guru_brahma",
+      "name": "Guru Brahma Guru Vishnu",
+      "description": "Guru Mantra - Salutation to Teacher",
+      "path": "texts/guru_brahma/index.json",
+      "bundle": "texts/guru_brahma.zip",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "hasAudio": false,
+      "hasMeanings": true,
+      "hasImage": false,
+      "checksum": "6d21ffd27d3f918753aa7a4c4aea36bdc2a6b1989432f7d1de9f15fa75cffbcf",
+      "size": 1585,
+      "readingTimeMinutes": 2,
+      "tags": [
+        "morning",
+        "mantra",
+        "daily",
+        "knowledge",
+        "beginner",
+        "quick"
+      ]
+    },
+    {
+      "id": "om_sahana_vavatu",
+      "name": "Om Sahana Vavatu",
+      "description": "Shanti Mantra - Peace Invocation",
+      "path": "texts/om_sahana_vavatu/index.json",
+      "bundle": "texts/om_sahana_vavatu.zip",
+      "languages": [
+        "en",
+        "gu",
+        "hi"
+      ],
+      "hasAudio": false,
+      "hasMeanings": true,
+      "hasImage": false,
+      "checksum": "0bd011a56d8f42b01672963843c66369b9dd0cbee096709069673eb8830603f5",
+      "size": 1734,
+      "readingTimeMinutes": 2,
+      "tags": [
+        "morning",
+        "mantra",
+        "daily",
+        "peace",
+        "beginner",
+        "quick"
+      ]
+    },
+    {
+      "id": "twameva_mata",
+      "name": "Twameva Mata Cha Pita Twameva",
+      "description": "Universal Prayer of Surrender",
+      "path": "texts/twameva_mata/index.json",
+      "bundle": "texts/twameva_mata.zip",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "hasAudio": false,
+      "hasMeanings": true,
+      "hasImage": false,
+      "checksum": "c8a17fde5dba0aceec3707eb43419aafeec4d0566372d53d63576e0234b12a89",
+      "size": 1524,
+      "readingTimeMinutes": 2,
+      "tags": [
+        "anytime",
+        "shloka",
+        "daily",
+        "devotion",
+        "beginner",
+        "quick"
       ]
     },
     {
@@ -324,12 +577,16 @@
       "hasAudio": false,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "ba2f986a4bfb0b22247d4c09faa8e544b286a156aac9151d1e7dbc5d42047945",
+      "checksum": "acbe2f2d6a6a8567c5548f9c26fb42a92372df45373e3226c05865505bfd445b",
       "size": 1413,
       "readingTimeMinutes": 2,
       "tags": [
+        "morning",
+        "mantra",
         "daily",
-        "wisdom"
+        "peace",
+        "beginner",
+        "quick"
       ]
     },
     {
@@ -346,13 +603,16 @@
       "hasAudio": false,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "9a57895d6c5d50165460a778a16612f5340743a4ffa949938f761c8ce28c7df7",
+      "checksum": "260fdbecb51d06bc0b9f4f5d2a1a7613d3a19c0f24344faa4204a610fe0e8078",
       "size": 1642,
       "readingTimeMinutes": 1,
       "tags": [
         "morning",
+        "shloka",
         "daily",
-        "wakeup"
+        "prosperity",
+        "beginner",
+        "quick"
       ]
     },
     {
@@ -369,102 +629,16 @@
       "hasAudio": false,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "b1e2e04df02c56bfe82c9545743d158d56a2edc5185c7766f9a154e44e698c33",
+      "checksum": "6d4c27cb7966242e2ea7ad27264016688b39c149d5034350d4022dc9bccddb3c",
       "size": 1639,
       "readingTimeMinutes": 2,
       "tags": [
         "evening",
+        "shloka",
         "daily",
-        "lamp"
-      ]
-    },
-    {
-      "id": "shiv_chalisa",
-      "name": "Shiv Chalisa",
-      "description": "40 Verses in Praise of Lord Shiva",
-      "path": "texts/shiv_chalisa/index.json",
-      "bundle": "texts/shiv_chalisa.zip",
-      "languages": [
-        "en",
-        "hi",
-        "gu"
-      ],
-      "hasAudio": false,
-      "hasMeanings": false,
-      "hasImage": false,
-      "checksum": "9fe61a3527cc43a0d9d2f014dbf24a84f15f6a927fe881526e3c3378d885975c",
-      "size": 6272,
-      "readingTimeMinutes": 7,
-      "tags": [
-        "devotion"
-      ]
-    },
-    {
-      "id": "shiv_aarti",
-      "name": "Om Jai Shiv Omkara",
-      "description": "Shiv Aarti - Most Popular",
-      "path": "texts/shiv_aarti/index.json",
-      "bundle": "texts/shiv_aarti.zip",
-      "languages": [
-        "hi",
-        "gu",
-        "en"
-      ],
-      "hasAudio": false,
-      "hasMeanings": false,
-      "hasImage": false,
-      "checksum": "1c640efe55b60e5b9da7aadfb494fb03b9b0e5dc6d66f7e09f707110bc8829e7",
-      "size": 2601,
-      "readingTimeMinutes": 5,
-      "tags": [
-        "evening",
-        "aarti",
-        "popular"
-      ]
-    },
-    {
-      "id": "sukhkarta_dukhharta",
-      "name": "Sukhkarta Dukhharta",
-      "description": "Ganesh Aarti - Marathi",
-      "path": "texts/sukhkarta_dukhharta/index.json",
-      "bundle": "texts/sukhkarta_dukhharta.zip",
-      "languages": [
-        "en",
-        "gu",
-        "hi"
-      ],
-      "hasAudio": false,
-      "hasMeanings": false,
-      "hasImage": false,
-      "checksum": "189f226917ac682f9e89411a8d6d9359e596ba51c1ecbd1a222f0356f3370aa5",
-      "size": 2283,
-      "readingTimeMinutes": 4,
-      "tags": [
-        "evening",
-        "aarti"
-      ]
-    },
-    {
-      "id": "jai_ambe_gauri",
-      "name": "Jai Ambe Gauri",
-      "description": "Durga Aarti - Navratri Special",
-      "path": "texts/jai_ambe_gauri/index.json",
-      "bundle": "texts/jai_ambe_gauri.zip",
-      "languages": [
-        "gu",
-        "hi",
-        "en"
-      ],
-      "hasAudio": false,
-      "hasMeanings": false,
-      "hasImage": false,
-      "checksum": "06909cc8deb13f3896d6c42a200f2140284e7cdb4897f525a4ae2ae19d0aaa5c",
-      "size": 3353,
-      "readingTimeMinutes": 5,
-      "tags": [
-        "evening",
-        "aarti",
-        "navratri"
+        "peace",
+        "beginner",
+        "quick"
       ]
     },
     {
@@ -481,20 +655,24 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "9f28bc0dec179a8461f5dcac051b51ff5433478bdc06d277ac39420fe347adb2",
+      "checksum": "2db53241b54825861d3ae427074105dfe0390075b845cc0a011597c662805f58",
       "size": 2748,
       "readingTimeMinutes": 6,
       "tags": [
         "evening",
         "aarti",
+        "daily",
+        "devotion",
+        "beginner",
+        "medium",
         "popular"
       ]
     }
   ],
   "_meta": {
-    "generatedAt": "2026-06-09T15:40:30.784231Z",
+    "generatedAt": "2026-06-11T14:41:50.312465Z",
     "generator": "build.py",
-    "itemCount": 21
+    "itemCount": 25
   },
   "categories": [
     {
@@ -502,9 +680,10 @@
       "name": "Hanuman",
       "image": "categories/hanuman.jpg",
       "items": [
-        "hauman_chalisa",
+        "hanuman_chalisa",
         "bajrang_baan",
-        "sankat_mochan"
+        "sankat_mochan",
+        "hanuman_aarti"
       ]
     },
     {
@@ -528,14 +707,29 @@
       ]
     },
     {
-      "id": "devi",
-      "name": "Devi",
-      "image": "categories/devi.jpg",
+      "id": "durga",
+      "name": "Durga",
+      "image": "categories/durga.jpg",
       "items": [
         "jay_adhya_shakti",
-        "saraswati_vandana",
-        "saraswati_namastubhyam",
-        "jai_ambe_gauri"
+        "jai_ambe_gauri",
+        "durga_chalisa"
+      ]
+    },
+    {
+      "id": "krishna",
+      "name": "Krishna",
+      "image": "categories/krishna.jpg",
+      "items": [
+        "krishna_aarti"
+      ]
+    },
+    {
+      "id": "lakshmi",
+      "name": "Lakshmi",
+      "image": "categories/lakshmi.jpg",
+      "items": [
+        "lakshmi_aarti"
       ]
     },
     {
@@ -550,8 +744,6 @@
         "asato_ma",
         "karagre_vasate",
         "shubham_karoti",
-        "vakratunda_mahakaya",
-        "ganesh_aarti",
         "saraswati_vandana",
         "saraswati_namastubhyam",
         "om_jai_jagdish_hare"
@@ -578,10 +770,22 @@
       "encouragement": "Ganpati Bappa Morya!"
     },
     {
-      "id": "devi",
-      "name": "Devi",
-      "devotionTitle": "Devi Bhakt",
+      "id": "durga",
+      "name": "Durga",
+      "devotionTitle": "Durga Bhakt",
       "encouragement": "Jai Mata Di! Blessings upon you."
+    },
+    {
+      "id": "krishna",
+      "name": "Krishna",
+      "devotionTitle": "Krishna Bhakt",
+      "encouragement": "Hare Krishna! Radhe Radhe!"
+    },
+    {
+      "id": "lakshmi",
+      "name": "Lakshmi",
+      "devotionTitle": "Lakshmi Bhakt",
+      "encouragement": "Om Shri Mahalakshmyai Namah!"
     },
     {
       "id": "daily_prayers",
@@ -595,7 +799,7 @@
     "rotationDays": 7,
     "items": [
       "gayatri_mantra",
-      "hauman_chalisa",
+      "hanuman_chalisa",
       "shiv_tandav",
       "ganesh_aarti",
       "jay_adhya_shakti",
