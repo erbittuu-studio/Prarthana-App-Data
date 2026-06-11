@@ -5,7 +5,7 @@
     "supportEmail": "utsavhacker@gmail.com"
   },
   "data": {
-    "version": 14,
+    "version": 17,
     "minAppVersion": "1.0"
   },
   "config": {
@@ -28,22 +28,16 @@
   },
   "deities": [
     {
-      "id": "hanuman",
-      "name": "Hanuman",
-      "devotionTitle": "Hanuman Bhakt",
-      "encouragement": "Jai Bajrangbali! Stay blessed."
+      "id": "ganesh",
+      "name": "Ganesh",
+      "devotionTitle": "Ganesh Bhakt",
+      "encouragement": "Ganpati Bappa Morya!"
     },
     {
       "id": "shiva",
       "name": "Shiva",
       "devotionTitle": "Shiv Bhakt",
       "encouragement": "Har Har Mahadev! Stay blessed."
-    },
-    {
-      "id": "ganesh",
-      "name": "Ganesh",
-      "devotionTitle": "Ganesh Bhakt",
-      "encouragement": "Ganpati Bappa Morya!"
     },
     {
       "id": "durga",
@@ -56,6 +50,12 @@
       "name": "Krishna",
       "devotionTitle": "Krishna Bhakt",
       "encouragement": "Hare Krishna! Radhe Radhe!"
+    },
+    {
+      "id": "hanuman",
+      "name": "Hanuman",
+      "devotionTitle": "Hanuman Bhakt",
+      "encouragement": "Jai Bajrangbali! Stay blessed."
     },
     {
       "id": "lakshmi",
@@ -72,14 +72,13 @@
   ],
   "categories": [
     {
-      "id": "hanuman",
-      "name": "Hanuman",
-      "image": "hanuman.jpg",
+      "id": "ganesh",
+      "name": "Ganesh",
+      "image": "ganesh.jpg",
       "items": [
-        "hanuman_chalisa",
-        "bajrang_baan",
-        "sankat_mochan",
-        "hanuman_aarti"
+        "ganesh_aarti",
+        "vakratunda_mahakaya",
+        "sukhkarta_dukhharta"
       ]
     },
     {
@@ -93,23 +92,18 @@
       ]
     },
     {
-      "id": "ganesh",
-      "name": "Ganesh",
-      "image": "ganesh.jpg",
-      "items": [
-        "ganesh_aarti",
-        "vakratunda_mahakaya",
-        "sukhkarta_dukhharta"
-      ]
-    },
-    {
       "id": "durga",
       "name": "Durga",
       "image": "durga.jpg",
       "items": [
         "jay_adhya_shakti",
         "jai_ambe_gauri",
-        "durga_chalisa"
+        "durga_chalisa",
+        "durga_aarti",
+        "mahishasura_mardini",
+        "navdurga_stuti",
+        "durga_saptashati",
+        "devi_kavach"
       ]
     },
     {
@@ -117,7 +111,23 @@
       "name": "Krishna",
       "image": "krishna.jpg",
       "items": [
-        "krishna_aarti"
+        "krishna_aarti",
+        "achyutam_keshavam",
+        "hare_krishna_mahamantra",
+        "krishna_chalisa",
+        "govinda_namalu",
+        "madhurashtakam"
+      ]
+    },
+    {
+      "id": "hanuman",
+      "name": "Hanuman",
+      "image": "hanuman.jpg",
+      "items": [
+        "hanuman_chalisa",
+        "bajrang_baan",
+        "sankat_mochan",
+        "hanuman_aarti"
       ]
     },
     {
@@ -131,7 +141,7 @@
     {
       "id": "daily_prayers",
       "name": "Daily Prayers",
-      "image": "daily_prayers.jpg",
+      "image": "prayers.jpg",
       "items": [
         "gayatri_mantra",
         "guru_brahma",
@@ -155,10 +165,10 @@
       "tags": [
         "morning",
         "evening",
+        "tuesday",
+        "saturday",
         "chalisa",
         "protection",
-        "devotion",
-        "intermediate",
         "long",
         "popular"
       ]
@@ -169,10 +179,11 @@
       "description": "Powerful Protection Prayer",
       "readingTimeMinutes": 7,
       "tags": [
-        "anytime",
+        "morning",
+        "tuesday",
+        "saturday",
         "stotra",
         "protection",
-        "advanced",
         "long"
       ]
     },
@@ -182,12 +193,12 @@
       "description": "8 Verses - Remover of Difficulties",
       "readingTimeMinutes": 6,
       "tags": [
-        "anytime",
+        "morning",
+        "evening",
+        "tuesday",
+        "saturday",
         "stotra",
-        "protection",
-        "health",
-        "intermediate",
-        "medium"
+        "protection"
       ]
     },
     {
@@ -197,10 +208,9 @@
       "readingTimeMinutes": 4,
       "tags": [
         "evening",
-        "aarti",
-        "devotion",
-        "beginner",
-        "medium"
+        "tuesday",
+        "saturday",
+        "aarti"
       ]
     },
     {
@@ -210,11 +220,9 @@
       "readingTimeMinutes": 5,
       "tags": [
         "evening",
+        "friday",
         "aarti",
         "navratri",
-        "devotion",
-        "intermediate",
-        "medium",
         "popular"
       ]
     },
@@ -225,11 +233,9 @@
       "readingTimeMinutes": 5,
       "tags": [
         "evening",
+        "friday",
         "aarti",
-        "navratri",
-        "devotion",
-        "beginner",
-        "medium"
+        "navratri"
       ]
     },
     {
@@ -239,10 +245,10 @@
       "readingTimeMinutes": 8,
       "tags": [
         "morning",
+        "friday",
         "chalisa",
         "navratri",
         "protection",
-        "intermediate",
         "long"
       ]
     },
@@ -254,9 +260,8 @@
       "tags": [
         "morning",
         "evening",
+        "wednesday",
         "aarti",
-        "beginner",
-        "medium",
         "popular"
       ]
     },
@@ -267,9 +272,8 @@
       "readingTimeMinutes": 1,
       "tags": [
         "morning",
-        "shloka",
-        "daily",
-        "beginner",
+        "wednesday",
+        "mantra",
         "quick"
       ]
     },
@@ -280,10 +284,8 @@
       "readingTimeMinutes": 4,
       "tags": [
         "evening",
-        "aarti",
-        "devotion",
-        "intermediate",
-        "medium"
+        "wednesday",
+        "aarti"
       ]
     },
     {
@@ -292,12 +294,10 @@
       "description": "By Ravana - 16 Shlokas",
       "readingTimeMinutes": 6,
       "tags": [
-        "anytime",
+        "morning",
+        "evening",
+        "monday",
         "stotra",
-        "shivaratri",
-        "devotion",
-        "advanced",
-        "medium",
         "popular"
       ]
     },
@@ -308,10 +308,8 @@
       "readingTimeMinutes": 7,
       "tags": [
         "morning",
+        "monday",
         "chalisa",
-        "shivaratri",
-        "devotion",
-        "intermediate",
         "long"
       ]
     },
@@ -322,11 +320,8 @@
       "readingTimeMinutes": 5,
       "tags": [
         "evening",
+        "monday",
         "aarti",
-        "shivaratri",
-        "devotion",
-        "beginner",
-        "medium",
         "popular"
       ]
     },
@@ -337,11 +332,9 @@
       "readingTimeMinutes": 5,
       "tags": [
         "evening",
+        "thursday",
         "aarti",
         "janmashtami",
-        "devotion",
-        "beginner",
-        "medium",
         "popular"
       ]
     },
@@ -354,10 +347,7 @@
         "evening",
         "friday",
         "aarti",
-        "prosperity",
         "diwali",
-        "beginner",
-        "medium",
         "popular"
       ]
     },
@@ -368,10 +358,9 @@
       "readingTimeMinutes": 2,
       "tags": [
         "morning",
+        "sunday",
         "mantra",
-        "daily",
         "peace",
-        "beginner",
         "quick",
         "popular"
       ]
@@ -383,9 +372,8 @@
       "readingTimeMinutes": 3,
       "tags": [
         "morning",
-        "shloka",
-        "knowledge",
-        "beginner",
+        "thursday",
+        "mantra",
         "quick"
       ]
     },
@@ -396,9 +384,8 @@
       "readingTimeMinutes": 2,
       "tags": [
         "morning",
-        "shloka",
-        "knowledge",
-        "beginner",
+        "thursday",
+        "mantra",
         "quick"
       ]
     },
@@ -409,10 +396,8 @@
       "readingTimeMinutes": 2,
       "tags": [
         "morning",
+        "thursday",
         "mantra",
-        "daily",
-        "knowledge",
-        "beginner",
         "quick"
       ]
     },
@@ -424,9 +409,7 @@
       "tags": [
         "morning",
         "mantra",
-        "daily",
         "peace",
-        "beginner",
         "quick"
       ]
     },
@@ -436,11 +419,10 @@
       "description": "Universal Prayer of Surrender",
       "readingTimeMinutes": 2,
       "tags": [
-        "anytime",
-        "shloka",
-        "daily",
-        "devotion",
-        "beginner",
+        "morning",
+        "evening",
+        "mantra",
+        "peace",
         "quick"
       ]
     },
@@ -452,9 +434,7 @@
       "tags": [
         "morning",
         "mantra",
-        "daily",
         "peace",
-        "beginner",
         "quick"
       ]
     },
@@ -465,10 +445,8 @@
       "readingTimeMinutes": 1,
       "tags": [
         "morning",
-        "shloka",
-        "daily",
-        "prosperity",
-        "beginner",
+        "mantra",
+        "peace",
         "quick"
       ]
     },
@@ -479,10 +457,9 @@
       "readingTimeMinutes": 2,
       "tags": [
         "evening",
-        "shloka",
-        "daily",
+        "night",
+        "mantra",
         "peace",
-        "beginner",
         "quick"
       ]
     },
@@ -494,11 +471,142 @@
       "tags": [
         "evening",
         "aarti",
-        "daily",
-        "devotion",
-        "beginner",
-        "medium",
         "popular"
+      ]
+    },
+    {
+      "id": "achyutam_keshavam",
+      "name": "Achyutam Keshavam",
+      "description": "Krishna Bhajan - Very Popular",
+      "readingTimeMinutes": 4,
+      "tags": [
+        "morning",
+        "evening",
+        "thursday",
+        "bhajan",
+        "janmashtami",
+        "popular"
+      ]
+    },
+    {
+      "id": "hare_krishna_mahamantra",
+      "name": "Hare Krishna Mahamantra",
+      "description": "16 Word Mantra - Daily Chant",
+      "readingTimeMinutes": 1,
+      "tags": [
+        "morning",
+        "afternoon",
+        "evening",
+        "thursday",
+        "mantra",
+        "quick",
+        "popular"
+      ]
+    },
+    {
+      "id": "krishna_chalisa",
+      "name": "Krishna Chalisa",
+      "description": "40 Verses of Lord Krishna",
+      "readingTimeMinutes": 8,
+      "tags": [
+        "morning",
+        "thursday",
+        "chalisa",
+        "janmashtami",
+        "long"
+      ]
+    },
+    {
+      "id": "govinda_namalu",
+      "name": "Govinda Namalu",
+      "description": "Names of Lord Govinda",
+      "readingTimeMinutes": 5,
+      "tags": [
+        "morning",
+        "evening",
+        "thursday",
+        "stotra",
+        "janmashtami"
+      ]
+    },
+    {
+      "id": "madhurashtakam",
+      "name": "Madhurashtakam",
+      "description": "Sweet Description of Krishna",
+      "readingTimeMinutes": 4,
+      "tags": [
+        "morning",
+        "evening",
+        "thursday",
+        "stotra",
+        "janmashtami"
+      ]
+    },
+    {
+      "id": "durga_aarti",
+      "name": "Durga Aarti",
+      "description": "Om Jai Ambe Gauri",
+      "readingTimeMinutes": 5,
+      "tags": [
+        "evening",
+        "friday",
+        "aarti",
+        "navratri",
+        "popular"
+      ]
+    },
+    {
+      "id": "mahishasura_mardini",
+      "name": "Mahishasura Mardini",
+      "description": "Aigiri Nandini Stotram",
+      "readingTimeMinutes": 7,
+      "tags": [
+        "morning",
+        "friday",
+        "stotra",
+        "navratri",
+        "protection",
+        "long",
+        "popular"
+      ]
+    },
+    {
+      "id": "navdurga_stuti",
+      "name": "Navdurga Stuti",
+      "description": "9 Forms of Durga",
+      "readingTimeMinutes": 4,
+      "tags": [
+        "morning",
+        "friday",
+        "stotra",
+        "navratri"
+      ]
+    },
+    {
+      "id": "durga_saptashati",
+      "name": "Durga Saptashati",
+      "description": "Chandi Path - Sacred Text",
+      "readingTimeMinutes": 10,
+      "tags": [
+        "morning",
+        "friday",
+        "stotra",
+        "navratri",
+        "protection",
+        "long"
+      ]
+    },
+    {
+      "id": "devi_kavach",
+      "name": "Devi Kavach",
+      "description": "Protection Armor of Devi",
+      "readingTimeMinutes": 6,
+      "tags": [
+        "morning",
+        "friday",
+        "stotra",
+        "navratri",
+        "protection"
       ]
     }
   ]
