@@ -150,7 +150,7 @@ def load_index() -> Optional[Dict]:
         return None
 
     # Validate required fields
-    required = ["app", "data", "config", "languages", "items"]
+    required = ["app", "data", "config", "items"]
     for field in required:
         if field not in index:
             log_error(f"Missing required field '{field}' in index.json")
@@ -312,10 +312,10 @@ def create_manifest_item(item_meta: Dict, files: Dict, zip_path: Path) -> Dict:
     size = compute_file_size(zip_path)
     item_id = item_meta["id"]
 
-    return {
+    result = {
         "id": item_id,
-        "name": item_meta.get("name", {"en": item_id}),
-        "description": item_meta.get("description", {"en": ""}),
+        "name": item_meta.get("name", item_id),
+        "description": item_meta.get("description", ""),
         "path": f"texts/{item_id}/index.json",
         "bundle": f"texts/{item_id}.zip",
         "languages": files["languages"],
@@ -325,6 +325,14 @@ def create_manifest_item(item_meta: Dict, files: Dict, zip_path: Path) -> Dict:
         "checksum": checksum,
         "size": size
     }
+
+    # Include optional fields if present
+    if "readingTimeMinutes" in item_meta:
+        result["readingTimeMinutes"] = item_meta["readingTimeMinutes"]
+    if "tags" in item_meta:
+        result["tags"] = item_meta["tags"]
+
+    return result
 
 
 def copy_category_images(categories: List[Dict], verbose: bool = False) -> List[Dict]:
@@ -359,7 +367,6 @@ def create_manifest(index: Dict, items: List[Dict], verbose: bool = False) -> Di
         "app": index["app"],
         "data": index["data"],
         "config": index["config"],
-        "languages": index["languages"],
         "items": items,
         "_meta": {
             "generatedAt": datetime.utcnow().isoformat() + "Z",
@@ -371,6 +378,14 @@ def create_manifest(index: Dict, items: List[Dict], verbose: bool = False) -> Di
     # Include categories if defined, with updated image paths
     if "categories" in index:
         manifest["categories"] = copy_category_images(index["categories"], verbose)
+
+    # Include deities if defined
+    if "deities" in index:
+        manifest["deities"] = index["deities"]
+
+    # Include todaysPrayer if defined
+    if "todaysPrayer" in index:
+        manifest["todaysPrayer"] = index["todaysPrayer"]
 
     return manifest
 
