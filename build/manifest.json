@@ -5,7 +5,7 @@
     "supportEmail": "utsavhacker@gmail.com"
   },
   "data": {
-    "version": 18,
+    "version": 19,
     "minAppVersion": "1.0"
   },
   "config": {
@@ -28,7 +28,7 @@
       "hasAudio": true,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "b2ccc35989023aab5b3baa62630e9c5333f2d4d16293c3ae6ba2c0a90406a2e8",
+      "checksum": "0c667a7376eb28b7ca186b7b485991c7fd21fc86291cfa6facd8358c22eb3d95",
       "size": 4549029,
       "readingTimeMinutes": 8,
       "tags": [
@@ -56,7 +56,7 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "462df2bd0f7e91f4bb496e0ab74fa5fbc984640533de941588daffc85e9ed391",
+      "checksum": "9a9a6dee7321dce63806406a73c6a0c6f8b6d53a6f22b0f1c40f3ab884cf949d",
       "size": 11101188,
       "readingTimeMinutes": 7,
       "tags": [
@@ -82,7 +82,7 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "3ee8317dc7882649d0917e45a4bfaa2ce11f475ad35b1c99aa53f16900fbdd1a",
+      "checksum": "8c1c6faa99704d51a77c351cbfbfd0280625fb2a1c58cd0dbf41a94024cfcf15",
       "size": 8812198,
       "readingTimeMinutes": 6,
       "tags": [
@@ -108,7 +108,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "f8acf62f9603cf7102ada088577a84258c2e7472a88db882317b427a37309056",
+      "checksum": "82068d8426243808f98e53d6e7e7c1e0e5688f02c00eb6ce70d76f94a86e00e4",
       "size": 2434,
       "readingTimeMinutes": 4,
       "tags": [
@@ -132,7 +132,7 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "1beba41c52111c70ac7a0f3d73785facf30bba5b0b66417fae32a85b2b85c003",
+      "checksum": "5fa78b50215be54e0108fe7ec521db3b8033f828a6ac94806bda5e3d9e6cee6d",
       "size": 19432118,
       "readingTimeMinutes": 5,
       "tags": [
@@ -157,7 +157,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "2d19c173efa277ad241d3c162e188745d4edbf4ec2f0d417b0f51e80382f0e93",
+      "checksum": "68f2094b7fba45bc4d57e76e8133d2363919118b2ceebba354a3ace032873b59",
       "size": 3353,
       "readingTimeMinutes": 5,
       "tags": [
@@ -181,7 +181,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "674ed15e175243415bf4b8040fcc312eef82e8bbeb5a239bfc553e4ca1b8f955",
+      "checksum": "abd5fe3b2717b2132a6cd0f6d5789ab685803c4771c4f1791c06db7945860c56",
       "size": 6322,
       "readingTimeMinutes": 8,
       "tags": [
@@ -207,7 +207,7 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "41fece32353b8584be684af23d3dccacf98620de25629496fdaf0a4af7c59ac7",
+      "checksum": "9efe744508bd8b690cc84ced828101db9f9030c71c3046c129b6b67ca2b51827",
       "size": 6486464,
       "readingTimeMinutes": 4,
       "tags": [
@@ -232,7 +232,7 @@
       "hasAudio": false,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "71a742da4d6c048ab23e2d47578efee58b767dd9f8644243146f59e84be2dcae",
+      "checksum": "08a0a3c57b848c636189fd643447526989ccafb9ab659eeb919d4ff139c94dd8",
       "size": 1698,
       "readingTimeMinutes": 1,
       "tags": [
@@ -256,7 +256,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "caae4763b96b40ed368ebb13eaa8add11ec2a54e64e86e360159b3f868d58bb4",
+      "checksum": "909627b7595de55233d8b76ef90d2132bb2514dfafee7b3c249f4baa47eb066e",
       "size": 2283,
       "readingTimeMinutes": 4,
       "tags": [
@@ -279,7 +279,7 @@
       "hasAudio": true,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "b4ace2d08c6573096ca33f4a28cd8f16812c5656ad69f3078d14e3c293ed9f53",
+      "checksum": "e83c50524cac8ebf58e391f889863b53e27a7d006ea74c789eee7de191f2490f",
       "size": 9269482,
       "readingTimeMinutes": 6,
       "tags": [
@@ -304,7 +304,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "74f67149a1c587802d380179c839a8c7713123e5b744329e12f1e2dcce6f3237",
+      "checksum": "58ba88ef38c4cd777928c3b84d207c9f7feb4bbb266549ee653fdb85aeae648e",
       "size": 6272,
       "readingTimeMinutes": 7,
       "tags": [
@@ -328,7 +328,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "591012287a69653e3ea408230f1add1eaa769c910ed42e0d6e94a20507632957",
+      "checksum": "875fab9b80601c6ae1498b63e1c42c4e585fbf5e400c3ec72bd44705a49acfce",
       "size": 2601,
       "readingTimeMinutes": 5,
       "tags": [
@@ -352,7 +352,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "6dc2734ab51a2faf777d7bf5f9f2ec53675b2cd1c6822bfcb14de3c701ea67be",
+      "checksum": "023e73b34078af62a53dc09fa557f6e3be1fc5bf39f86792ff56f8bc0a10e629",
       "size": 2088,
       "readingTimeMinutes": 5,
       "tags": [
@@ -377,7 +377,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "c7da66006e6817af78fe206f6ef8da37d84ad58533374d0854469537a587d0b4",
+      "checksum": "07880942119a32e3606cefa6e38fd5a5d09eaa8feba5c5e55ffd1721d6cee159",
       "size": 2485,
       "readingTimeMinutes": 5,
       "tags": [
@@ -402,7 +402,7 @@
       "hasAudio": false,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "86c8681f650a09428b0d72d6c5d3c22e088afee9b672a36bed17657e021224b1",
+      "checksum": "8103d713155ee2593291ee8b4c74eb81756acce64e22ac5deb4c89d59b5ff729",
       "size": 1672,
       "readingTimeMinutes": 2,
       "tags": [
@@ -428,7 +428,7 @@
       "hasAudio": false,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "146d4e6d6fda87e09df00162305db2545b2ea2ebc8b5b30300b20a96944e0d19",
+      "checksum": "7d7443553dca069805150a00d55b8d86ac284c7bed1230eb10362e50b7dcbd1d",
       "size": 2092,
       "readingTimeMinutes": 3,
       "tags": [
@@ -452,7 +452,7 @@
       "hasAudio": false,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "022fbc77f9f620dedd49107a6a5aec9dbe33ce7350c5b4a102f59deb3bbf319b",
+      "checksum": "511002af2f24878ce1d84ee81266b02c047ec1f747353f87bb009ba2dbf7b3bf",
       "size": 1762,
       "readingTimeMinutes": 2,
       "tags": [
@@ -476,7 +476,7 @@
       "hasAudio": false,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "c308b035c0c073b7d42d886479bc4f3443d1e134bb959c11adf69871dc6407e5",
+      "checksum": "6d1e94672d935e2da236909cedbadfdf7075b37b922cd02662f11ace407a885d",
       "size": 1585,
       "readingTimeMinutes": 2,
       "tags": [
@@ -500,7 +500,7 @@
       "hasAudio": false,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "7067f9e297dd567f7787f3910250e59b8a7fb257c66c04df1fb4f98e11479c3b",
+      "checksum": "13d27df23e147603a2f3ba6d8c490a33f9e90a6b0a778f75245e4a028b43d0e0",
       "size": 1734,
       "readingTimeMinutes": 2,
       "tags": [
@@ -524,7 +524,7 @@
       "hasAudio": false,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "dcbc05a870aab32fccd712f6141dc01d3831842a1555875aceeb7a35c91fbda8",
+      "checksum": "7df70205e7a64eb6b2f5fe8eb1b94dbeb1c3ee9a8785535fd6e4064ffbe93305",
       "size": 1524,
       "readingTimeMinutes": 2,
       "tags": [
@@ -549,7 +549,7 @@
       "hasAudio": false,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "ac4984c4fd2caa249dd0fbea5f500a0ea50da6b644c905875ae23bcf44c81f9e",
+      "checksum": "c6c60d0b5e91316ba9c8baf35ce4660ae92d36e6006bfe8a8350616861783731",
       "size": 1413,
       "readingTimeMinutes": 2,
       "tags": [
@@ -573,7 +573,7 @@
       "hasAudio": false,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "2d86b6821b73c435ad4cab87c65dce57f487898793073f04d86348bee0a47546",
+      "checksum": "b5b2400ff4cf142dc2e136aa0d2d5b6190dd10b85c81f002220d1e2770208eb3",
       "size": 1642,
       "readingTimeMinutes": 1,
       "tags": [
@@ -597,7 +597,7 @@
       "hasAudio": false,
       "hasMeanings": true,
       "hasImage": false,
-      "checksum": "1907e9f7915b992f1326c18d8066089f400e7966dc6cc51237144d843d4ad04a",
+      "checksum": "7a8a342167564b3300e7520539d73dc39cd25f2476c65cd2d3a3b71f7ad3eda4",
       "size": 1639,
       "readingTimeMinutes": 2,
       "tags": [
@@ -622,7 +622,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "abfb0708705bfb2b5fb0ddba610a61b7e4e30b7360bbd50bb638c59c0201c2be",
+      "checksum": "0cbdacf8ee316590e585c892caa4c8b606dfd6e6fd03bb2f48cd3bc1a60e6f3f",
       "size": 2748,
       "readingTimeMinutes": 6,
       "tags": [
@@ -645,7 +645,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "fbc0d3b4cade4151e58da54b478800ed21c6e682cae0fd1dc31e6c9eaf982a5a",
+      "checksum": "36ec3fa9bf5617694528114b7e309a9a75cf82bcc4d9f60cf62f5d525384f60b",
       "size": 1905,
       "readingTimeMinutes": 4,
       "tags": [
@@ -671,7 +671,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "e9ca59232f7701e1e77b19145b127909688d9ca81641476950e8f952b6b172c6",
+      "checksum": "e36522f37fffb9b9a0e35308129c7b967700e34429b93bdd03d64ecb8d47e9f3",
       "size": 1252,
       "readingTimeMinutes": 1,
       "tags": [
@@ -698,7 +698,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "5437d1e33f9a729cf9a02c5b9e403bdcccae1c30adc4892354c6e6fd9f62b0f2",
+      "checksum": "fb7cabdf6682e34370817fc8769ab4c2a747ba1a1bb78f228ee6aa968bc4cd25",
       "size": 3920,
       "readingTimeMinutes": 8,
       "tags": [
@@ -723,7 +723,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "eba3e29ccae9dac6d5c407b5e1949a72f8b56544f653d58e16aa519c22a12acd",
+      "checksum": "518667401031a4d1880046762e2a826e4b11fad678647bcdf659de240f6fe13a",
       "size": 2069,
       "readingTimeMinutes": 5,
       "tags": [
@@ -748,7 +748,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "14e4bd5f4faf4087ed3565ee5e61df17e8f48dd2f0cf48519c0e3e379366f87b",
+      "checksum": "57d12f33f9bb074b0bc6c36df71cce2781acb4b32a79bf1c6580be23be0774a8",
       "size": 2130,
       "readingTimeMinutes": 4,
       "tags": [
@@ -773,7 +773,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "3670d5f6b6eaa2f72cb50bd82ceac9b9f5ff5bfdff0deff782bbcc8f02a70bfd",
+      "checksum": "5667291d97b88d5e71c6c16160bfffb01173253f8dd0256cbcfc09a006de61d0",
       "size": 3215,
       "readingTimeMinutes": 5,
       "tags": [
@@ -798,7 +798,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "56dbead3acd0483028860afb978ec33f60cf0a6ca1a150d6f22aa78b63cf1dae",
+      "checksum": "737a53598036e3be6913bfae3bfdedd06ded7d06ea1b93d19b3831166505776d",
       "size": 2723,
       "readingTimeMinutes": 7,
       "tags": [
@@ -825,7 +825,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "386935707155c8dfe8f050053555d95d6ab8c57992df2283446f0e3cf1cec05d",
+      "checksum": "243b6bfe6acf46d8d340804b7edf57665c710879433ef1741bed3aabf9f75fb8",
       "size": 2211,
       "readingTimeMinutes": 4,
       "tags": [
@@ -849,7 +849,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "9a63a278d51ca42ee230aa2e01e1da9cad765ae649cf2f39589dfa5411131d8d",
+      "checksum": "9fdba1bf8f0e7fd38f131963983584aeb3be761f0ba6f91dc8b9a9e1c2b7f90f",
       "size": 3021,
       "readingTimeMinutes": 10,
       "tags": [
@@ -875,7 +875,7 @@
       "hasAudio": false,
       "hasMeanings": false,
       "hasImage": false,
-      "checksum": "55afde362c555fdec5a922d6e2d743f9f17ae9e608600feaa4738faaf6c4613e",
+      "checksum": "097ad9907389ca07c7d3184aff6a728a7668ea74322b5eaa0fc6358b6a4b091d",
       "size": 2820,
       "readingTimeMinutes": 6,
       "tags": [
@@ -888,7 +888,7 @@
     }
   ],
   "_meta": {
-    "generatedAt": "2026-06-11T16:11:27.648578Z",
+    "generatedAt": "2026-06-11T16:17:21.804439Z",
     "generator": "build.py",
     "itemCount": 35
   },
